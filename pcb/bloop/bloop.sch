@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bloop-cache
 EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
