@@ -1,3 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BGT24MTR12
+D Silicon Germanium 24 GHz Transceiver MMIC
+$ENDCMP
+#
+$CMP KC3225K40
+D XTAL OSC XO 40.0000MHZ CMOS SMD
+F https://global.kyocera.com/prdct/electro/product/pdf/clock_k_e.pdf
+$ENDCMP
+#
+$CMP LMX2491RTWR
+D LMX2491 6.4-GHz Low Noise RF PLL With Ramp/Chirp Generation
+F http://www.ti.com/lit/ds/symlink/lmx2491.pdf
+$ENDCMP
+#
+$CMP LPF_35GHz
+D Microstrip Low Pass Filter, Fc = 35GHz
+$ENDCMP
+#
 #End Doc Library
