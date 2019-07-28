@@ -1,4 +1,4 @@
-update=7/27/2019 1:21:53 AM
+update=7/27/2019 6:30:02 PM
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Projects/bloop/pcb/lib/bloop.kicad_wks
+PageLayoutDescrFile=${BLOOP_DIR}/lib/bloop.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
