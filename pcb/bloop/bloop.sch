@@ -17,37 +17,20 @@ $EndDescr
 $Sheet
 S 10900 3400 2000 2000
 U 5D3D1319
-F0 "Interfaces" 50
-F1 "Interfaces.sch" 50
+F0 "Interfaces" 75
+F1 "Interfaces.sch" 75
 $EndSheet
 $Sheet
 S 7400 6050 2000 1000
 U 5D3D147E
-F0 "Power" 50
-F1 "Power.sch" 50
-$EndSheet
-$Sheet
-S 3900 3400 2000 2000
-U 5D3D1628
-F0 "Radar MMIC and RF Front End" 50
-F1 "Radar_MMIC_RF_Front_End.sch" 50
-F2 "TX" O L 3900 3650 50 
-F3 "RX1" I L 3900 4350 50 
-F4 "RX2" I L 3900 5000 50 
-F5 "IF1_QX" O R 5900 3600 50 
-F6 "IF1_Q" O R 5900 3700 50 
-F7 "IF1_I" O R 5900 3800 50 
-F8 "IF1_IX" O R 5900 3900 50 
-F9 "IF2_QX" O R 5900 4150 50 
-F10 "IF2_Q" O R 5900 4250 50 
-F11 "IF2_I" O R 5900 4350 50 
-F12 "IF2_IX" O R 5900 4450 50 
+F0 "Power" 75
+F1 "Power.sch" 75
 $EndSheet
 $Sheet
 S 7400 3400 2000 2000
 U 5D3D17E1
-F0 "Baseband" 50
-F1 "Baseband.sch" 50
+F0 "Baseband" 75
+F1 "Baseband.sch" 75
 $EndSheet
 $Comp
 L Connector:Conn_Coaxial P?
@@ -130,4 +113,21 @@ Wire Wire Line
 	3100 4350 3900 4350
 Wire Wire Line
 	3100 5000 3900 5000
+$Sheet
+S 3900 3400 2000 2000
+U 5D3D1628
+F0 "Radar MMIC and RF Front End" 75
+F1 "Radar_MMIC_RF_Front_End.sch" 75
+F2 "TX" O L 3900 3650 50 
+F3 "RX1" I L 3900 4350 50 
+F4 "RX2" I L 3900 5000 50 
+F5 "IF1_QX" O R 5900 3600 50 
+F6 "IF1_Q" O R 5900 3700 50 
+F7 "IF1_I" O R 5900 3800 50 
+F8 "IF1_IX" O R 5900 3900 50 
+F9 "IF2_QX" O R 5900 4150 50 
+F10 "IF2_Q" O R 5900 4250 50 
+F11 "IF2_I" O R 5900 4350 50 
+F12 "IF2_IX" O R 5900 4450 50 
+$EndSheet
 $EndSCHEMATC
