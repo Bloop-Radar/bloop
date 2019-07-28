@@ -39,8 +39,9 @@ U 1 1 5D3E6B28
 P 5700 3200
 F 0 "U?" H 7144 3246 50  0000 L CNN
 F 1 "BGT24MTR12" H 7144 3155 50  0000 L CNN
-F 2 "" H 5700 5600 50  0001 C CNN
-F 3 "" H 5700 5600 50  0001 C CNN
+F 2 "bloop:BGT24MTR12" H 5700 5600 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BGT24MTR12-DS-v03_01-EN.pdf?fileId=db3a304339dcf4b10139df108e75025b" H 5700 5600 50  0001 C CNN
+F 4 "BGT24MTR12E6327XUMA1" H 5700 3200 50  0001 C CNN "MPN"
 	1    5700 3200
 	1    0    0    -1  
 $EndComp
@@ -102,4 +103,67 @@ Wire Wire Line
 	8950 3500 7100 3500
 Wire Wire Line
 	7100 4000 8950 4000
+$Comp
+L bloop:WILK_24_GHZ WLK?
+U 1 1 5D3D6313
+P 8100 2850
+F 0 "WLK?" H 8100 3265 50  0000 C CNN
+F 1 "WILK_24_GHZ" H 8100 3174 50  0000 C CNN
+F 2 "" H 8100 3200 50  0001 C CNN
+F 3 "" H 8100 3200 50  0001 C CNN
+	1    8100 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2750 7500 2750
+Wire Wire Line
+	7500 2750 7500 2700
+Wire Wire Line
+	7500 2700 7650 2700
+Wire Wire Line
+	7100 2950 7500 2950
+Wire Wire Line
+	7500 2950 7500 3000
+Wire Wire Line
+	7500 3000 7650 3000
+Wire Wire Line
+	8550 2850 8900 2850
+Wire Wire Line
+	4300 2850 4000 2850
+Wire Wire Line
+	4300 3000 4000 3000
+Wire Wire Line
+	4300 3150 4000 3150
+Wire Wire Line
+	4300 3300 4000 3300
+Wire Wire Line
+	4300 3550 4000 3550
+Wire Wire Line
+	4300 3700 4000 3700
+Wire Wire Line
+	4300 3850 4000 3850
+Wire Wire Line
+	4300 4000 4000 4000
+Text HLabel 4000 2850 0    50   Output ~ 0
+IF1_QX
+Text HLabel 4000 3000 0    50   Output ~ 0
+IF1_Q
+Text HLabel 4000 3150 0    50   Output ~ 0
+IF1_I
+Text HLabel 4000 3300 0    50   Output ~ 0
+IF1_IX
+Text HLabel 4000 3550 0    50   Output ~ 0
+IF2_QX
+Text HLabel 4000 3700 0    50   Output ~ 0
+IF2_Q
+Text HLabel 4000 3850 0    50   Output ~ 0
+IF2_I
+Text HLabel 4000 4000 0    50   Output ~ 0
+IF2_IX
+Wire Wire Line
+	4700 1700 4700 1600
+Wire Wire Line
+	4700 1600 4950 1600
+Wire Wire Line
+	4950 1600 4950 1700
 $EndSCHEMATC
