@@ -48,7 +48,7 @@ P 2900 3500
 F 0 "J?" H 3100 3550 50  0000 C CNN
 F 1 "TX" H 3100 3450 50  0000 C CNN
 F 2 "" H 2900 3500 50  0001 C CNN
-F 3 " ~" H 2900 3500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734153320_sd.pdf" H 2900 3500 50  0001 C CNN
 	1    2900 3500
 	-1   0    0    -1  
 $EndComp
@@ -59,7 +59,7 @@ P 2900 4350
 F 0 "J?" H 3100 4400 50  0000 C CNN
 F 1 "RX1" H 3100 4300 50  0000 C CNN
 F 2 "" H 2900 4350 50  0001 C CNN
-F 3 " ~" H 2900 4350 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734153320_sd.pdf" H 2900 4350 50  0001 C CNN
 	1    2900 4350
 	-1   0    0    -1  
 $EndComp
@@ -96,7 +96,7 @@ P 2900 5000
 F 0 "J?" H 3100 5050 50  0000 C CNN
 F 1 "RX2" H 3100 4950 50  0000 C CNN
 F 2 "" H 2900 5000 50  0001 C CNN
-F 3 " ~" H 2900 5000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734153320_sd.pdf" H 2900 5000 50  0001 C CNN
 	1    2900 5000
 	-1   0    0    -1  
 $EndComp
