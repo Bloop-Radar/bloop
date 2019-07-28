@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title ""
+Title "Interfaces"
 Date ""
-Rev ""
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""

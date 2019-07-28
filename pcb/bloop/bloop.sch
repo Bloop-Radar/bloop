@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 5
 Title "Bloop Radar"
 Date ""
-Rev ""
+Rev "A"
 Comp ""
 Comment1 "Prabodh J."
 Comment2 "Leo L."
