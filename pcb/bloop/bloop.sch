@@ -21,7 +21,7 @@ F0 "Interfaces" 50
 F1 "Interfaces.sch" 50
 $EndSheet
 $Sheet
-S 7400 6000 2000 1000
+S 7400 6050 2000 1000
 U 5D3D147E
 F0 "Power" 50
 F1 "Power.sch" 50
