@@ -694,18 +694,6 @@ Connection ~ 1450 4000
 Wire Wire Line
 	4200 6250 3400 6250
 $Comp
-L bloop:KC3225K U?
-U 1 1 5D6FD5C8
-P 5100 8100
-F 0 "U?" H 5100 8500 50  0000 C CNN
-F 1 "KC3225K" H 5100 7750 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 5100 8100 50  0001 C CNN
-F 3 "https://global.kyocera.com/prdct/electro/product/pdf/clock_k_e.pdf" H 5100 8100 50  0001 C CNN
-F 4 "KC3225K40" H 5100 8100 50  0001 C CNN "Manufacturer PN"
-	1    5100 8100
-	1    0    0    -1  
-$EndComp
-$Comp
 L bloop:LMX2491 U?
 U 1 1 5D3E2D0F
 P 5100 5250
@@ -713,7 +701,7 @@ F 0 "U?" H 5100 6900 60  0000 C CNN
 F 1 "LMX2491" H 5100 4050 60  0000 C CNN
 F 2 "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm" H 5100 5050 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmx2491.pdf" H 5100 5250 60  0001 C CNN
-F 4 "LMX2491RTWR" H 5100 5250 50  0001 C CNN "Manufacturer PN"
+F 4 "LMX2491RTWR" H 5100 5250 50  0001 C CNN "MPN"
 	1    5100 5250
 	1    0    0    -1  
 $EndComp
@@ -852,4 +840,16 @@ Wire Wire Line
 Wire Wire Line
 	12100 2800 13100 2800
 Connection ~ 11600 2800
+$Comp
+L bloop:KC3225K40 U?
+U 1 1 5D4329C9
+P 5100 8100
+F 0 "U?" H 5100 8566 50  0000 C CNN
+F 1 "KC3225K40" H 5100 8475 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 5100 8100 50  0001 C CNN
+F 3 "https://global.kyocera.com/prdct/electro/product/pdf/clock_k_e.pdf" H 5100 8100 50  0001 C CNN
+F 4 "KC3225K40.0000C1GE00" H 5100 8100 50  0001 C CNN "MPN"
+	1    5100 8100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

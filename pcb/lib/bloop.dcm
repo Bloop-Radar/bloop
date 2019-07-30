@@ -2,9 +2,10 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP BGT24MTR12
 D Silicon Germanium 24 GHz Transceiver MMIC
+F https://www.infineon.com/dgdl/BGT24MTR12_v3.pdf?folderId=db3a30431f848401011fcbf2ab4c04c4&fileId=db3a304339dcf4b10139df108e75025b
 $ENDCMP
 #
-$CMP KC3225K
+$CMP KC3225K40
 D XTAL OSC XO 40.0000MHZ CMOS SMD
 F https://global.kyocera.com/prdct/electro/product/pdf/clock_k_e.pdf
 $ENDCMP
