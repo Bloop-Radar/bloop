@@ -19,4 +19,9 @@ $CMP LPF_35GHz
 D Microstrip Low Pass Filter, Fc = 35GHz
 $ENDCMP
 #
+$CMP L_STUB
+D Transmission line stub
+K Stub, transmission line
+$ENDCMP
+#
 #End Doc Library
