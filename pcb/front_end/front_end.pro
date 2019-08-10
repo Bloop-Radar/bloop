@@ -1,4 +1,4 @@
-update=8/9/2019 12:32:48 AM
+update=8/10/2019 1:10:15 AM
 version=1
 last_client=kicad
 [general]
@@ -18,14 +18,14 @@ PageLayoutDescrFile=C:/Projects/bloop/pcb/lib/bloop.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=front_end.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
