@@ -506,13 +506,13 @@ F 3 "" H 9000 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 4250 7650 4250
+	8000 4250 7650 4250
 Wire Wire Line
-	8300 4550 8300 4250
+	8000 4550 8000 4250
 Wire Wire Line
-	8300 5150 7650 5150
+	8000 5150 7650 5150
 Wire Wire Line
-	8300 4850 8300 5150
+	8000 4850 8000 5150
 Wire Wire Line
 	7450 5350 7450 5400
 Wire Wire Line
@@ -539,10 +539,6 @@ F 3 "" H 7450 5400 50  0001 C CNN
 	1    7450 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 4850 8300 4850
-Wire Wire Line
-	8550 4550 8300 4550
 Wire Wire Line
 	9450 4700 10100 4700
 $Comp
@@ -896,14 +892,6 @@ F 3 "" H 9000 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 6250 7650 6250
-Wire Wire Line
-	8300 6550 8300 6250
-Wire Wire Line
-	8300 7150 7650 7150
-Wire Wire Line
-	8300 6850 8300 7150
-Wire Wire Line
 	7450 7350 7450 7400
 Wire Wire Line
 	7450 6450 7450 6500
@@ -929,10 +917,6 @@ F 3 "" H 7450 7400 50  0001 C CNN
 	1    7450 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 6850 8300 6850
-Wire Wire Line
-	8550 6550 8300 6550
 Wire Wire Line
 	9450 6700 10100 6700
 $Comp
@@ -996,14 +980,6 @@ F 3 "" H 9000 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 8250 7650 8250
-Wire Wire Line
-	8300 8550 8300 8250
-Wire Wire Line
-	8300 9150 7650 9150
-Wire Wire Line
-	8300 8850 8300 9150
-Wire Wire Line
 	7450 9350 7450 9400
 Wire Wire Line
 	7450 8450 7450 8500
@@ -1029,10 +1005,6 @@ F 3 "" H 7450 9400 50  0001 C CNN
 	1    7450 9400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 8850 8300 8850
-Wire Wire Line
-	8550 8550 8300 8550
 Wire Wire Line
 	9450 8700 10100 8700
 $Comp
@@ -1139,4 +1111,83 @@ F 4 "292-06A-5" H 12350 5550 50  0001 C CNN "MPN"
 	1    12350 5550
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D4F9AA7
+P 8250 4700
+F 0 "R?" H 8318 4746 50  0000 L CNN
+F 1 "100" H 8318 4655 50  0000 L CNN
+F 2 "" V 8290 4690 50  0001 C CNN
+F 3 "~" H 8250 4700 50  0001 C CNN
+	1    8250 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4850 8250 4850
+Wire Wire Line
+	8000 4550 8250 4550
+Connection ~ 8250 4550
+Wire Wire Line
+	8250 4550 8550 4550
+Connection ~ 8250 4850
+Wire Wire Line
+	8250 4850 8550 4850
+Wire Wire Line
+	8000 6250 7650 6250
+Wire Wire Line
+	8000 6550 8000 6250
+Wire Wire Line
+	8000 7150 7650 7150
+Wire Wire Line
+	8000 6850 8000 7150
+$Comp
+L Device:R_US R?
+U 1 1 5D511FA6
+P 8250 6700
+F 0 "R?" H 8318 6746 50  0000 L CNN
+F 1 "100" H 8318 6655 50  0000 L CNN
+F 2 "" V 8290 6690 50  0001 C CNN
+F 3 "~" H 8250 6700 50  0001 C CNN
+	1    8250 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 6850 8250 6850
+Wire Wire Line
+	8000 6550 8250 6550
+Connection ~ 8250 6550
+Wire Wire Line
+	8250 6550 8550 6550
+Connection ~ 8250 6850
+Wire Wire Line
+	8250 6850 8550 6850
+Wire Wire Line
+	8000 8250 7650 8250
+Wire Wire Line
+	8000 8550 8000 8250
+Wire Wire Line
+	8000 9150 7650 9150
+Wire Wire Line
+	8000 8850 8000 9150
+$Comp
+L Device:R_US R?
+U 1 1 5D514628
+P 8250 8700
+F 0 "R?" H 8318 8746 50  0000 L CNN
+F 1 "100" H 8318 8655 50  0000 L CNN
+F 2 "" V 8290 8690 50  0001 C CNN
+F 3 "~" H 8250 8700 50  0001 C CNN
+	1    8250 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 8850 8250 8850
+Wire Wire Line
+	8000 8550 8250 8550
+Connection ~ 8250 8550
+Wire Wire Line
+	8250 8550 8550 8550
+Connection ~ 8250 8850
+Wire Wire Line
+	8250 8850 8550 8850
 $EndSCHEMATC
