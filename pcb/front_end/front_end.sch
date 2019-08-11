@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:front_end-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -20,8 +20,6 @@ Wire Wire Line
 	7700 1700 7450 1700
 Wire Wire Line
 	7700 2000 7450 2000
-Wire Wire Line
-	11050 2050 11050 2150
 $Comp
 L power:GND #PWR0101
 U 1 1 5D499174
@@ -33,8 +31,6 @@ F 3 "" H 11050 2150 50  0001 C CNN
 	1    11050 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 1850 9850 1850
 Wire Wire Line
 	10500 1850 10500 2000
 Wire Wire Line
@@ -52,9 +48,6 @@ F 3 "" H 10500 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10500 1850 10850 1850
-Connection ~ 10500 1850
-Wire Wire Line
-	10150 1850 10500 1850
 Wire Wire Line
 	14150 1700 14150 1750
 $Comp
@@ -120,16 +113,16 @@ Wire Wire Line
 Wire Wire Line
 	13100 1500 12550 1500
 Wire Wire Line
-	4600 2650 4600 2700
+	5000 2650 5000 2700
 $Comp
 L power:GND #PWR0107
 U 1 1 5D4E6E63
-P 4600 2700
-F 0 "#PWR0107" H 4600 2450 50  0001 C CNN
-F 1 "GND" H 4605 2527 50  0000 C CNN
-F 2 "" H 4600 2700 50  0001 C CNN
-F 3 "" H 4600 2700 50  0001 C CNN
-	1    4600 2700
+P 5000 2700
+F 0 "#PWR0107" H 5000 2450 50  0001 C CNN
+F 1 "GND" H 5005 2527 50  0000 C CNN
+F 2 "" H 5000 2700 50  0001 C CNN
+F 3 "" H 5000 2700 50  0001 C CNN
+	1    5000 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -146,9 +139,9 @@ $EndComp
 Wire Wire Line
 	3200 2650 3200 2700
 Wire Wire Line
-	3400 2450 4400 2450
-Text Notes 3800 2400 0    50   ~ 0
-THRU = ?
+	3400 2450 4800 2450
+Text Notes 3750 2400 0    50   ~ 0
+THRU = 1.1794 in\n
 $Comp
 L bloop:LPF_35GHz FL1
 U 1 1 5D490B41
@@ -166,7 +159,7 @@ U 1 1 5D49395D
 P 8150 1850
 F 0 "WLK1" H 8150 2265 50  0000 C CNN
 F 1 "WILK_24_GHZ" H 8150 2174 50  0000 C CNN
-F 2 "" H 8150 2200 50  0001 C CNN
+F 2 "bloop:Wilkinson_V1" H 8150 2200 50  0001 C CNN
 F 3 "" H 8150 2200 50  0001 C CNN
 	1    8150 1850
 	1    0    0    -1  
@@ -201,7 +194,7 @@ U 1 1 5D4A481B
 P 10000 1850
 F 0 "C1" V 9748 1850 50  0000 C CNN
 F 1 "DC BLK" V 9839 1850 50  0000 C CNN
-F 2 "" H 10038 1700 50  0001 C CNN
+F 2 "bloop:DC_Block" H 10038 1700 50  0001 C CNN
 F 3 "~" H 10000 1850 50  0001 C CNN
 	1    10000 1850
 	0    1    1    0   
@@ -260,7 +253,7 @@ U 1 1 5D4E0668
 P 13250 1500
 F 0 "C2" V 12998 1500 50  0000 C CNN
 F 1 "DC BLK" V 13089 1500 50  0000 C CNN
-F 2 "" H 13288 1350 50  0001 C CNN
+F 2 "bloop:DC_Block" H 13288 1350 50  0001 C CNN
 F 3 "~" H 13250 1500 50  0001 C CNN
 	1    13250 1500
 	0    1    1    0   
@@ -268,13 +261,13 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J6
 U 1 1 5D4E6E5C
-P 4600 2450
-F 0 "J6" H 4700 2550 50  0000 L CNN
-F 1 "SMA" H 4700 2450 50  0000 L CNN
-F 2 "bloop:292-06A-5" H 4600 2450 50  0001 C CNN
-F 3 "https://www.hasco-inc.com/content/Southwest/End%20Launch/Jack/SMA_jack_endlaunch_genoutline.pdf" H 4600 2450 50  0001 C CNN
-F 4 "292-06A-5" H 4600 2450 50  0001 C CNN "MPN"
-	1    4600 2450
+P 5000 2450
+F 0 "J6" H 5100 2550 50  0000 L CNN
+F 1 "SMA" H 5100 2450 50  0000 L CNN
+F 2 "bloop:292-06A-5" H 5000 2450 50  0001 C CNN
+F 3 "https://www.hasco-inc.com/content/Southwest/End%20Launch/Jack/SMA_jack_endlaunch_genoutline.pdf" H 5000 2450 50  0001 C CNN
+F 4 "292-06A-5" H 5000 2450 50  0001 C CNN "MPN"
+	1    5000 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -317,8 +310,8 @@ Wire Wire Line
 	3200 1550 3200 1600
 Wire Wire Line
 	3400 1350 5250 1350
-Text Notes 3800 1300 0    50   ~ 0
-LINE 1 = ?
+Text Notes 3900 1300 0    50   ~ 0
+LINE 1 = 1.253 in\n
 $Comp
 L Connector:Conn_Coaxial J9
 U 1 1 5D4F3BAC
@@ -357,9 +350,9 @@ $EndComp
 Wire Wire Line
 	3200 3650 3200 3700
 Wire Wire Line
-	3400 3450 3800 3450
-Text Notes 3800 3400 0    50   ~ 0
-OPEN = ?
+	3400 3450 4100 3450
+Text Notes 3400 3300 0    50   ~ 0
+OPEN = 0.5897 in
 $Comp
 L Connector:Conn_Coaxial J3
 U 1 1 5D4FA9C3
@@ -372,7 +365,6 @@ F 4 "292-06A-5" H 3200 3450 50  0001 C CNN "MPN"
 	1    3200 3450
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 3800 3450
 Wire Notes Line
 	2600 750  2600 4150
 Wire Notes Line
@@ -500,7 +492,7 @@ U 1 1 5D49BB53
 P 9000 4700
 F 0 "WLK2" H 9000 5115 50  0000 C CNN
 F 1 "WILK_24_GHZ" H 9000 5024 50  0000 C CNN
-F 2 "" H 9000 5050 50  0001 C CNN
+F 2 "bloop:Wilkinson_V1" H 9000 5050 50  0001 C CNN
 F 3 "" H 9000 5050 50  0001 C CNN
 	1    9000 4700
 	1    0    0    -1  
@@ -554,74 +546,72 @@ F 3 "" H 10300 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10300 4900 10300 5000
-Text Notes 4050 5100 0    59   ~ 12
+Text Notes 4750 4950 0    59   ~ 12
 SMP Bullet
 Wire Notes Line style solid
-	3850 5200 3950 5200
-Wire Wire Line
-	3650 5250 4950 5250
+	4550 5050 4650 5050
 Wire Notes Line style solid
-	3850 5300 3850 5200
+	4550 5150 4550 5050
 Wire Notes Line style solid
-	3950 5300 3850 5300
+	4650 5150 4550 5150
 Wire Notes Line style solid
-	4650 5350 3950 5350
+	5350 5200 4650 5200
 Wire Notes Line style solid
-	4750 5300 4650 5300
+	5450 5150 5350 5150
 Wire Notes Line style solid
-	4750 5200 4750 5300
+	5450 5050 5450 5150
 Wire Notes Line style solid
-	4650 5200 4750 5200
+	5350 5050 5450 5050
 Wire Notes Line style solid
-	3950 5150 4650 5150
+	4650 5000 5350 5000
 $Comp
 L Connector:Conn_Coaxial J7
 U 1 1 5D534F40
-P 5150 5250
-F 0 "J7" H 5250 5350 50  0000 L CNN
-F 1 "SMP" H 5250 5250 50  0000 L CNN
-F 2 "bloop:0734153320" H 5150 5250 50  0001 C CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0734153320_RF_COAX_CONNECTORS.pdf" H 5150 5250 50  0001 C CNN
-F 4 "0734153320" H 5150 5250 50  0001 C CNN "MPN"
-	1    5150 5250
+P 4250 5100
+F 0 "J7" H 4350 5200 50  0000 L CNN
+F 1 "SMP" H 4350 5100 50  0000 L CNN
+F 2 "bloop:0734153320" H 4250 5100 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0734153320_RF_COAX_CONNECTORS.pdf" H 4250 5100 50  0001 C CNN
+F 4 "0734153320" H 4250 5100 50  0001 C CNN "MPN"
+	1    4250 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5D534F3A
-P 5150 5550
-F 0 "#PWR0117" H 5150 5300 50  0001 C CNN
-F 1 "GND" H 5155 5377 50  0000 C CNN
-F 2 "" H 5150 5550 50  0001 C CNN
-F 3 "" H 5150 5550 50  0001 C CNN
-	1    5150 5550
+P 4250 5400
+F 0 "#PWR0117" H 4250 5150 50  0001 C CNN
+F 1 "GND" H 4255 5227 50  0000 C CNN
+F 2 "" H 4250 5400 50  0001 C CNN
+F 3 "" H 4250 5400 50  0001 C CNN
+	1    4250 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 5450 5150 5550
+	4250 5300 4250 5400
 $Comp
 L power:GND #PWR0118
 U 1 1 5D534F31
-P 3450 5500
-F 0 "#PWR0118" H 3450 5250 50  0001 C CNN
-F 1 "GND" H 3455 5327 50  0000 C CNN
-F 2 "" H 3450 5500 50  0001 C CNN
-F 3 "" H 3450 5500 50  0001 C CNN
-	1    3450 5500
+P 3450 5350
+F 0 "#PWR0118" H 3450 5100 50  0001 C CNN
+F 1 "GND" H 3455 5177 50  0000 C CNN
+F 2 "" H 3450 5350 50  0001 C CNN
+F 3 "" H 3450 5350 50  0001 C CNN
+	1    3450 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 5450 3450 5500
+	3450 5300 3450 5350
 $Comp
 L Connector:Conn_Coaxial J4
 U 1 1 5D534F2A
-P 3450 5250
-F 0 "J4" H 3650 5350 50  0000 C CNN
-F 1 "SMA" H 3650 5250 50  0000 C CNN
-F 2 "bloop:292-06A-5" H 3450 5250 50  0001 C CNN
-F 3 "https://www.hasco-inc.com/content/Southwest/End%20Launch/Jack/SMA_jack_endlaunch_genoutline.pdf" H 3450 5250 50  0001 C CNN
-F 4 "292-06A-5" H 3450 5250 50  0001 C CNN "MPN"
-	1    3450 5250
+P 3450 5100
+F 0 "J4" H 3650 5200 50  0000 C CNN
+F 1 "SMA" H 3650 5100 50  0000 C CNN
+F 2 "bloop:292-06A-5" H 3450 5100 50  0001 C CNN
+F 3 "https://www.hasco-inc.com/content/Southwest/End%20Launch/Jack/SMA_jack_endlaunch_genoutline.pdf" H 3450 5100 50  0001 C CNN
+F 4 "292-06A-5" H 3450 5100 50  0001 C CNN "MPN"
+	1    3450 5100
 	-1   0    0    -1  
 $EndComp
 Connection ~ 4650 6250
@@ -886,7 +876,7 @@ U 1 1 5D500B1C
 P 9000 6700
 F 0 "WLK3" H 9000 7115 50  0000 C CNN
 F 1 "WILK_24_GHZ" H 9000 7024 50  0000 C CNN
-F 2 "" H 9000 7050 50  0001 C CNN
+F 2 "bloop:Wilkinson_V1" H 9000 7050 50  0001 C CNN
 F 3 "" H 9000 7050 50  0001 C CNN
 	1    9000 6700
 	1    0    0    -1  
@@ -974,7 +964,7 @@ U 1 1 5D50B806
 P 9000 8700
 F 0 "WLK4" H 9000 9115 50  0000 C CNN
 F 1 "WILK_24_GHZ" H 9000 9024 50  0000 C CNN
-F 2 "" H 9000 9050 50  0001 C CNN
+F 2 "bloop:Wilkinson_V1" H 9000 9050 50  0001 C CNN
 F 3 "" H 9000 9050 50  0001 C CNN
 	1    9000 8700
 	1    0    0    -1  
@@ -1031,9 +1021,9 @@ Wire Notes Line
 Text Notes 8050 3600 0    100  ~ 20
 Wilkinson Power Dividers
 Wire Notes Line style solid
-	3950 5150 3950 5350
+	4650 5000 4650 5200
 Wire Notes Line style solid
-	4650 5150 4650 5350
+	5350 5000 5350 5200
 Wire Notes Line
 	2600 4250 6050 4250
 Wire Notes Line
@@ -1111,27 +1101,6 @@ F 4 "292-06A-5" H 12350 5550 50  0001 C CNN "MPN"
 	1    12350 5550
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5D4F9AA7
-P 8250 4700
-F 0 "R?" H 8318 4746 50  0000 L CNN
-F 1 "100" H 8318 4655 50  0000 L CNN
-F 2 "" V 8290 4690 50  0001 C CNN
-F 3 "~" H 8250 4700 50  0001 C CNN
-	1    8250 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 4850 8250 4850
-Wire Wire Line
-	8000 4550 8250 4550
-Connection ~ 8250 4550
-Wire Wire Line
-	8250 4550 8550 4550
-Connection ~ 8250 4850
-Wire Wire Line
-	8250 4850 8550 4850
 Wire Wire Line
 	8000 6250 7650 6250
 Wire Wire Line
@@ -1140,27 +1109,6 @@ Wire Wire Line
 	8000 7150 7650 7150
 Wire Wire Line
 	8000 6850 8000 7150
-$Comp
-L Device:R_US R?
-U 1 1 5D511FA6
-P 8250 6700
-F 0 "R?" H 8318 6746 50  0000 L CNN
-F 1 "100" H 8318 6655 50  0000 L CNN
-F 2 "" V 8290 6690 50  0001 C CNN
-F 3 "~" H 8250 6700 50  0001 C CNN
-	1    8250 6700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 6850 8250 6850
-Wire Wire Line
-	8000 6550 8250 6550
-Connection ~ 8250 6550
-Wire Wire Line
-	8250 6550 8550 6550
-Connection ~ 8250 6850
-Wire Wire Line
-	8250 6850 8550 6850
 Wire Wire Line
 	8000 8250 7650 8250
 Wire Wire Line
@@ -1169,25 +1117,36 @@ Wire Wire Line
 	8000 9150 7650 9150
 Wire Wire Line
 	8000 8850 8000 9150
+Wire Wire Line
+	8000 4550 8550 4550
+Wire Wire Line
+	8000 4850 8550 4850
+Wire Wire Line
+	8000 6550 8550 6550
+Wire Wire Line
+	8000 6850 8550 6850
+Wire Wire Line
+	8000 8550 8550 8550
+Wire Wire Line
+	8000 8850 8550 8850
 $Comp
-L Device:R_US R?
-U 1 1 5D514628
-P 8250 8700
-F 0 "R?" H 8318 8746 50  0000 L CNN
-F 1 "100" H 8318 8655 50  0000 L CNN
-F 2 "" V 8290 8690 50  0001 C CNN
-F 3 "~" H 8250 8700 50  0001 C CNN
-	1    8250 8700
+L bloop:OPEN_Zo TM1
+U 1 1 5D556699
+P 4100 3450
+F 0 "TM1" H 4278 3514 50  0000 L CNN
+F 1 "OPEN_Zo" H 4278 3423 50  0000 L CNN
+F 2 "bloop:OPEN_21mil" H 4100 3600 50  0001 C CNN
+F 3 "" H 4100 3600 50  0001 C CNN
+	1    4100 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 8850 8250 8850
+	9850 1850 9500 1850
 Wire Wire Line
-	8000 8550 8250 8550
-Connection ~ 8250 8550
+	10150 1850 10500 1850
+Connection ~ 10500 1850
 Wire Wire Line
-	8250 8550 8550 8550
-Connection ~ 8250 8850
+	3650 5100 4050 5100
 Wire Wire Line
-	8250 8850 8550 8850
+	11050 2050 11050 2150
 $EndSCHEMATC

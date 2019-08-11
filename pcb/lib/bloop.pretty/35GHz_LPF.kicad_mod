@@ -1,5 +1,9 @@
-(module 35GHz_LPF (layer F.Cu) (tedit 5D4E0FE0)
+(module 35GHz_LPF (layer F.Cu) (tedit 5D50869D)
   (descr "Stubbed Microstrip Low Pass Filter - 35 GHz Freq Cutoff")
+  (solder_mask_margin 0.000254)
+  (solder_paste_margin -0.000254)
+  (solder_paste_ratio -0.0000001)
+  (clearance 0.000254)
   (fp_text reference FL* (at 0 -4) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.2)))
   )
