@@ -1,4 +1,4 @@
-(module Radial_Stub_30GHz (layer F.Cu) (tedit 5D4E6BE8)
+(module Radial_Stub_30GHz (layer F.Cu) (tedit 5D51C678)
   (descr "30GHz Radial Stub LPF")
   (fp_text reference FL* (at 0 -4) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.2)))
@@ -8,7 +8,7 @@
   )
   (pad 1 smd rect (at 6.326 0) (size 0.4202 0.5334) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.000001) (solder_paste_margin -0.000001) (solder_paste_margin_ratio -0.00000001) (clearance 0.000001) (zone_connect 0))
-  (pad 1 smd custom (at -0.0566 0) (size 0.5334 0.5334) (layers F.Cu F.Paste F.Mask)
+  (pad 1 smd custom (at -0.0566 0) (size 0.5334 0.5334) (layers F.Cu F.Mask)
     (solder_mask_margin 0.000001) (solder_paste_margin -0.000001) (solder_paste_margin_ratio -0.00000001) (clearance 0.000001) (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
