@@ -1,4 +1,4 @@
-update=8/11/2019 4:33:41 PM
+update=8/25/2019 1:32:01 PM
 version=1
 last_client=kicad
 [general]
@@ -252,6 +252,17 @@ dPairViaGap=0.25
 Name=50ohm_24GHz
 Clearance=0.127
 TrackWidth=0.5334
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=50ohm_infineon24GHz
+Clearance=0.127
+TrackWidth=0.508
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
