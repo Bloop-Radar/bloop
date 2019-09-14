@@ -32,23 +32,6 @@ F 3 "" H 11050 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10500 1850 10500 2000
-Wire Wire Line
-	10500 2500 10500 2600
-$Comp
-L power:GND #PWR0102
-U 1 1 5D4A0E16
-P 10500 2600
-F 0 "#PWR0102" H 10500 2350 50  0001 C CNN
-F 1 "GND" H 10505 2427 50  0000 C CNN
-F 2 "" H 10500 2600 50  0001 C CNN
-F 3 "" H 10500 2600 50  0001 C CNN
-	1    10500 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10500 1850 10850 1850
-Wire Wire Line
 	14150 1700 14150 1750
 $Comp
 L power:GND #PWR0103
@@ -175,18 +158,6 @@ F 3 "https://www.hasco-inc.com/content/Southwest/End%20Launch/Jack/SMA_jack_endl
 F 4 "292-06A-5" H 11050 1850 50  0001 C CNN "MPN"
 	1    11050 1850
 	1    0    0    -1  
-$EndComp
-$Comp
-L bloop:L_STUB TL2
-U 1 1 5D4914E7
-P 10500 2250
-F 0 "TL2" V 10454 2338 50  0000 L CNN
-F 1 "L_STUB" V 10545 2338 50  0000 L CNN
-F 2 "" H 10500 2400 50  0001 C CNN
-F 3 "" H 10500 2400 50  0001 C CNN
-F 4 "N/A" H 10500 2250 50  0001 C CNN "MPN"
-	1    10500 2250
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C1
@@ -614,9 +585,6 @@ F 4 "292-06A-5" H 3450 5100 50  0001 C CNN "MPN"
 	1    3450 5100
 	-1   0    0    -1  
 $EndComp
-Connection ~ 4650 6250
-Wire Wire Line
-	4950 6250 4650 6250
 $Comp
 L Connector:Conn_Coaxial J8
 U 1 1 5D5279D9
@@ -642,10 +610,6 @@ F 3 "" H 5150 6550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5150 6450 5150 6550
-Wire Wire Line
-	4650 6250 4650 6300
-Wire Wire Line
-	3650 6250 4650 6250
 $Comp
 L power:GND #PWR0120
 U 1 1 5D521B0B
@@ -670,31 +634,6 @@ F 3 "https://www.hasco-inc.com/content/Southwest/End%20Launch/Jack/SMA_jack_endl
 F 4 "292-06A-5" H 3450 6250 50  0001 C CNN "MPN"
 	1    3450 6250
 	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 6800 4650 6850
-$Comp
-L power:GND #PWR0121
-U 1 1 5D51D06E
-P 4650 6850
-F 0 "#PWR0121" H 4650 6600 50  0001 C CNN
-F 1 "GND" H 4655 6677 50  0000 C CNN
-F 2 "" H 4650 6850 50  0001 C CNN
-F 3 "" H 4650 6850 50  0001 C CNN
-	1    4650 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L bloop:L_STUB TL1
-U 1 1 5D51C37E
-P 4650 6550
-F 0 "TL1" V 4604 6638 50  0000 L CNN
-F 1 "L_STUB" V 4695 6638 50  0000 L CNN
-F 2 "" H 4650 6700 50  0001 C CNN
-F 3 "" H 4650 6700 50  0001 C CNN
-F 4 "N/A" H 4650 6550 50  0001 C CNN "MPN"
-	1    4650 6550
-	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J24
@@ -1143,10 +1082,11 @@ $EndComp
 Wire Wire Line
 	9850 1850 9500 1850
 Wire Wire Line
-	10150 1850 10500 1850
-Connection ~ 10500 1850
-Wire Wire Line
 	3650 5100 4050 5100
 Wire Wire Line
 	11050 2050 11050 2150
+Wire Wire Line
+	3650 6250 4950 6250
+Wire Wire Line
+	10150 1850 10850 1850
 $EndSCHEMATC
