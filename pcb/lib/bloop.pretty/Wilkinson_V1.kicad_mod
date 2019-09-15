@@ -1,4 +1,4 @@
-(module Wilkinson_V1 (layer F.Cu) (tedit 5D4FA09B)
+(module Wilkinson_V1 (layer F.Cu) (tedit 5D7E75E4)
   (descr "Wilkinson power divider for 24GHz")
   (solder_mask_margin 0.000254)
   (solder_paste_margin 0.000254)
@@ -9,7 +9,7 @@
   (fp_text value WILK_24GHz (at 0 4) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.2)))
   )
-  (pad 3 smd custom (at 0.2667 0) (size 0.5334 0.5334) (layers F.Cu F.Mask)
+  (pad 1 smd custom (at 0.2667 0) (size 0.5334 0.5334) (layers F.Cu F.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -29,7 +29,7 @@
          (xy 1.947612 -0.470861) (xy 1.984835 -0.488282) (xy 2.024438 -0.498809) (xy 2.065421 -0.502444) (xy 3.114424 -0.502444)
 ) (width 0))
     ))
-  (pad 1 smd custom (at 5.463718 -0.642684) (size 0.5334 0.5334) (layers F.Cu F.Mask)
+  (pad 2 smd custom (at 5.463718 -0.642684) (size 0.5334 0.5334) (layers F.Cu F.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -37,7 +37,7 @@
          (xy -2.082594 0.266697) (xy -2.082594 -0.140246) (xy -1.815894 -0.140246) (xy -1.815894 -0.266703) (xy -1.549194 -0.266703)
          (xy 0.266697 -0.266703) (xy 0.266697 0.266697) (xy -1.549194 0.266697) (xy -2.082594 0.266697)) (width 0))
     ))
-  (pad 2 smd custom (at 5.463718 0.642684) (size 0.5334 0.5334) (layers F.Cu F.Mask)
+  (pad 3 smd custom (at 5.463718 0.642684) (size 0.5334 0.5334) (layers F.Cu F.Mask)
     (solder_paste_margin_ratio -0.0000001) (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
