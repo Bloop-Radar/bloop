@@ -766,9 +766,9 @@ $EndComp
 Wire Wire Line
 	14150 4700 14150 4750
 Wire Notes Line
-	11750 750  11750 6500
+	11750 750  11750 7300
 Wire Notes Line
-	14850 6500 14850 750 
+	14850 7300 14850 750 
 Wire Notes Line
 	14850 750  11750 750 
 Text Notes 13000 1000 0    100  ~ 20
@@ -974,7 +974,7 @@ Wire Notes Line
 Text Notes 3400 4500 0    100  ~ 20
 SMP Bullet and TL Stub
 Wire Notes Line
-	11750 6500 14850 6500
+	11750 7300 14850 7300
 $Comp
 L Connector:Conn_Coaxial J31
 U 1 1 5D4DA2B5
@@ -1089,4 +1089,69 @@ Wire Wire Line
 	3650 6250 4950 6250
 Wire Wire Line
 	10150 1850 10850 1850
+Wire Wire Line
+	14150 6700 14150 6750
+$Comp
+L power:GND #PWR?
+U 1 1 5D80B028
+P 14150 6750
+F 0 "#PWR?" H 14150 6500 50  0001 C CNN
+F 1 "GND" H 14155 6577 50  0000 C CNN
+F 2 "" H 14150 6750 50  0001 C CNN
+F 3 "" H 14150 6750 50  0001 C CNN
+	1    14150 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 6500 13950 6500
+$Comp
+L power:GND #PWR?
+U 1 1 5D80B02F
+P 12350 6750
+F 0 "#PWR?" H 12350 6500 50  0001 C CNN
+F 1 "GND" H 12355 6577 50  0000 C CNN
+F 2 "" H 12350 6750 50  0001 C CNN
+F 3 "" H 12350 6750 50  0001 C CNN
+	1    12350 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 6700 12350 6750
+Wire Wire Line
+	13100 6500 12550 6500
+$Comp
+L Connector:Conn_Coaxial J33
+U 1 1 5D80B038
+P 14150 6500
+F 0 "J33" H 14300 6600 50  0000 L CNN
+F 1 "SMA" H 14250 6500 50  0000 L CNN
+F 2 "bloop:292-06A-5" H 14150 6500 50  0001 C CNN
+F 3 "https://www.hasco-inc.com/content/Southwest/End%20Launch/Jack/SMA_jack_endlaunch_genoutline.pdf" H 14150 6500 50  0001 C CNN
+F 4 "292-06A-5" H 14150 6500 50  0001 C CNN "MPN"
+	1    14150 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J32
+U 1 1 5D80B03F
+P 12350 6500
+F 0 "J32" H 12550 6600 50  0000 C CNN
+F 1 "SMA" H 12550 6500 50  0000 C CNN
+F 2 "bloop:292-06A-5" H 12350 6500 50  0001 C CNN
+F 3 "https://www.hasco-inc.com/content/Southwest/End%20Launch/Jack/SMA_jack_endlaunch_genoutline.pdf" H 12350 6500 50  0001 C CNN
+F 4 "292-06A-5" H 12350 6500 50  0001 C CNN "MPN"
+	1    12350 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D80B045
+P 13250 6500
+F 0 "C3" V 12998 6500 50  0000 C CNN
+F 1 "DC BLK" V 13089 6500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13288 6350 50  0001 C CNN
+F 3 "~" H 13250 6500 50  0001 C CNN
+	1    13250 6500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
