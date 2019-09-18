@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:front_end-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Front-End"
+Date "2019-09-17"
+Rev "A"
 Comp ""
 Comment1 "Prabodh J."
 Comment2 "Leo L."
