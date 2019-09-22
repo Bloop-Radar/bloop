@@ -1,4 +1,4 @@
-(module Infineon_Wilkinson (layer F.Cu) (tedit 5D62E4DA)
+(module Infineon_Wilkinson (layer F.Cu) (tedit 5D86E5F0)
   (descr "A 24GHz Wilkinson from Infineon's Position 2 Go")
   (solder_mask_margin 0.000254)
   (solder_paste_margin 0.000254)
@@ -10,9 +10,9 @@
   (fp_text value Infineon_Wilkinson (at 0 4) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.2)))
   )
-  (fp_poly (pts (xy -0.254 0) (xy -0.254 -1.3716) (xy 2.1336 -1.3716) (xy 2.1336 0.762)
+  (fp_poly (pts (xy -0.254 0) (xy -0.254 -1.3716) (xy 2.413 -1.3716) (xy 2.413 0.762)
     (xy 1.614724 0.762) (xy 1.614724 -0.762) (xy 0.852724 -0.762) (xy 0.852724 0.762)
-    (xy 1.614724 0.762) (xy 2.1336 0.762) (xy 2.1336 1.3716) (xy -0.254 1.3716)) (layer F.Mask) (width 0))
+    (xy 1.614724 0.762) (xy 2.413 0.762) (xy 2.413 1.3716) (xy -0.254 1.3716)) (layer F.Mask) (width 0))
   (fp_poly (pts (xy 1.233724 -0.5461) (xy 1.081324 -0.5461) (xy 1.081324 -0.3937) (xy 1.081324 -0.2413)
     (xy 1.386124 -0.2413) (xy 1.386124 -0.5461)) (layer F.Mask) (width 0))
   (fp_poly (pts (xy 1.233724 0.2413) (xy 1.081324 0.2413) (xy 1.081324 0.3937) (xy 1.081324 0.5461)
