@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:front_end-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -992,8 +992,8 @@ L bloop:LPF_35GHz FL5
 U 1 1 5D4DA2BB
 P 13250 5550
 F 0 "FL5" H 13250 5815 50  0000 C CNN
-F 1 "LPF Radial Stub 30GHz" H 13250 5724 50  0000 C CNN
-F 2 "bloop:Radial_Stub_30GHz" H 13250 5300 50  0001 C CNN
+F 1 "Ideal LPF 26dB" H 13250 5724 50  0000 C CNN
+F 2 "bloop:Ideal_LPF_26dB" H 13250 5300 50  0001 C CNN
 F 3 "" H 12750 5800 50  0001 C CNN
 	1    13250 5550
 	1    0    0    -1  
