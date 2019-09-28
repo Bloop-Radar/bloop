@@ -1,0 +1,30 @@
+(module DC_Block (layer F.Cu) (tedit 5D4FA906)
+  (descr "DC blocking microstrip capacitor")
+  (solder_mask_margin 0.00001)
+  (solder_paste_margin 0.00001)
+  (clearance 0.00001)
+  (fp_text reference C* (at 0 -7.62) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.2)))
+  )
+  (fp_text value "DC Block" (at 0 4) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.2)))
+  )
+  (pad 1 smd custom (at 0 -0.2667) (size 0.5334 0.5334) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.00001) (solder_paste_margin -0.00001) (solder_paste_margin_ratio -0.0000001) (clearance 0.00001)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.2667 -0.002692) (xy -0.2667 0.2667) (xy 0.2667 0.2667) (xy 0.2667 -0.002692) (xy 0.4826 -0.002692)
+         (xy 0.4826 -0.510695) (xy -0.0635 -0.510695) (xy -0.0635 -2.593497) (xy -0.1905 -2.593497) (xy -0.1905 -0.510695)
+         (xy -0.482603 -0.510695) (xy -0.482603 -0.002692) (xy -0.2667 -0.002692)) (width 0.001))
+    ))
+  (pad 2 smd custom (at 0 -3.5025) (size 0.5334 0.5334) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.00001) (solder_paste_margin -0.00001) (solder_paste_margin_ratio -0.0000001) (clearance 0.00001)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.2667 0.0073) (xy 0.2667 -0.266652) (xy -0.2667 -0.266652) (xy -0.2667 0.0073) (xy -0.482603 0.0073)
+         (xy -0.482603 0.515303) (xy 0.0635 0.515303) (xy 0.0635 2.598105) (xy 0.1905 2.598105) (xy 0.1905 0.515303)
+         (xy 0.4826 0.515303) (xy 0.4826 0.0073) (xy 0.2667 0.0073)) (width 0.001))
+    ))
+)

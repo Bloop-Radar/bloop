@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:bloop-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -99,6 +99,8 @@ $Comp
 L bloop:WILK_24_GHZ WLK?
 U 1 1 5D3D6313
 P 14250 4650
+AR Path="/5D3D6313" Ref="WLK?"  Part="1" 
+AR Path="/5D3D1628/5D3D6313" Ref="WLK?"  Part="1" 
 F 0 "WLK?" H 14250 5000 50  0000 C CNN
 F 1 "WILK_24_GHZ" H 14250 4300 50  0000 C CNN
 F 2 "" H 14250 5000 50  0001 C CNN
