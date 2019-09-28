@@ -1,4 +1,7 @@
-(module Wilk_AWR_Mod (layer F.Cu) (tedit 5D8EF830)
+(module Wilk_AWR_Mod (layer F.Cu) (tedit 5D8F00E2)
+  (solder_mask_margin 0.000254)
+  (solder_paste_margin -0.000254)
+  (clearance 0.000254)
   (attr smd)
   (fp_text reference WLK* (at 0 -4) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.2)))
