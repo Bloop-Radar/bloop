@@ -1,4 +1,4 @@
-(module Infineon_LPF (layer F.Cu) (tedit 5D51C66C)
+(module Infineon_LPF (layer F.Cu) (tedit 5D9A27B8)
   (descr "48GHz LPF from Infineon Position2Go")
   (attr smd)
   (fp_text reference FL* (at 0 -4) (layer F.SilkS) hide
@@ -7,7 +7,7 @@
   (fp_text value 48GHz_LPF (at 0 4) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.2)))
   )
-  (pad 1 smd rect (at 2.615792 -0.002752) (size 0.5334 0.5334) (layers F.Cu F.Paste F.Mask)
+  (pad 1 smd rect (at 2.615792 -0.002752) (size 0.5334 0.5334) (layers F.Cu F.Mask)
     (solder_mask_margin 0.000001) (solder_paste_margin -0.000001) (solder_paste_margin_ratio -0.00000001) (clearance 0.000001))
   (pad 1 smd custom (at -2.615792 -0.002752) (size 0.5334 0.5334) (layers F.Cu F.Mask)
     (solder_mask_margin 0.000001) (solder_paste_margin -0.000001) (solder_paste_margin_ratio -0.00000001) (clearance 0.000001) (zone_connect 0)
