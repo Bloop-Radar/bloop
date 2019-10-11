@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name bloop)(type KiCad)(uri ${KIPRJMOD}/../../lib/bloop.pretty)(options "")(descr "Bloop radar footprints"))
-)

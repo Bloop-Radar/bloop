@@ -1,0 +1,139 @@
+EESchema Schematic File Version 4
+LIBS:digital-cache
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 5
+Title "Bloop Radar"
+Date ""
+Rev "A"
+Comp ""
+Comment1 "Prabodh J."
+Comment2 "Leo L."
+Comment3 "Austin S."
+Comment4 "Design Engineers:"
+$EndDescr
+$Sheet
+S 10500 3500 2000 2000
+U 5D3D1319
+F0 "Interfaces" 75
+F1 "Interfaces.sch" 75
+$EndSheet
+$Sheet
+S 7500 6150 2000 1000
+U 5D3D147E
+F0 "Power" 75
+F1 "Power.sch" 75
+$EndSheet
+$Sheet
+S 4500 3500 2000 2000
+U 5D3D17E1
+F0 "Baseband" 75
+F1 "Baseband.sch" 75
+$EndSheet
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5D89D33B
+P 11300 9750
+F 0 "H?" H 11400 9850 50  0000 L CNN
+F 1 "MNT_HOLE" H 11400 9750 50  0000 L CNN
+F 2 "" H 11300 9750 50  0001 C CNN
+F 3 "~" H 11300 9750 50  0001 C CNN
+	1    11300 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D89E2C2
+P 11300 9850
+F 0 "#PWR?" H 11300 9600 50  0001 C CNN
+F 1 "GND" H 11305 9677 50  0000 C CNN
+F 2 "" H 11300 9850 50  0001 C CNN
+F 3 "" H 11300 9850 50  0001 C CNN
+	1    11300 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5D89F708
+P 10300 9750
+F 0 "H?" H 10400 9850 50  0000 L CNN
+F 1 "MNT_HOLE" H 10400 9750 50  0000 L CNN
+F 2 "" H 10300 9750 50  0001 C CNN
+F 3 "~" H 10300 9750 50  0001 C CNN
+	1    10300 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D89F70E
+P 10300 9850
+F 0 "#PWR?" H 10300 9600 50  0001 C CNN
+F 1 "GND" H 10305 9677 50  0000 C CNN
+F 2 "" H 10300 9850 50  0001 C CNN
+F 3 "" H 10300 9850 50  0001 C CNN
+	1    10300 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5D8A33A6
+P 11300 8750
+F 0 "H?" H 11400 8850 50  0000 L CNN
+F 1 "MNT_HOLE" H 11400 8750 50  0000 L CNN
+F 2 "" H 11300 8750 50  0001 C CNN
+F 3 "~" H 11300 8750 50  0001 C CNN
+	1    11300 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8A33AC
+P 11300 8850
+F 0 "#PWR?" H 11300 8600 50  0001 C CNN
+F 1 "GND" H 11305 8677 50  0000 C CNN
+F 2 "" H 11300 8850 50  0001 C CNN
+F 3 "" H 11300 8850 50  0001 C CNN
+	1    11300 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5D8A33B2
+P 10300 8750
+F 0 "H?" H 10400 8850 50  0000 L CNN
+F 1 "MNT_HOLE" H 10400 8750 50  0000 L CNN
+F 2 "" H 10300 8750 50  0001 C CNN
+F 3 "~" H 10300 8750 50  0001 C CNN
+	1    10300 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8A33B8
+P 10300 8850
+F 0 "#PWR?" H 10300 8600 50  0001 C CNN
+F 1 "GND" H 10305 8677 50  0000 C CNN
+F 2 "" H 10300 8850 50  0001 C CNN
+F 3 "" H 10300 8850 50  0001 C CNN
+	1    10300 8850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9600 8400 9600 10300
+Wire Notes Line
+	9600 10300 12000 10300
+Wire Notes Line
+	12000 10300 12000 8400
+Wire Notes Line
+	12000 8400 9600 8400
+Text Notes 10300 8300 0    100  ~ 20
+Mounting Holes
+$Sheet
+S 7500 3500 2000 2000
+U 5D941D84
+F0 "SoC" 75
+F1 "SoC.sch" 75
+$EndSheet
+$EndSCHEMATC
