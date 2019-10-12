@@ -29,4 +29,9 @@ D USB-to-SPI Protocol Converter with GPIO (Master Mode)
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
 $ENDCMP
 #
+$CMP ST1L08SPU33R
+D IC Reg Linear 3.3V 800mA 8DFN
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/5f/25/d1/3f/f8/25/44/07/DM00123507.pdf/files/DM00123507.pdf/jcr:content/translations/en.DM00123507.pdf
+$ENDCMP
+#
 #End Doc Library
