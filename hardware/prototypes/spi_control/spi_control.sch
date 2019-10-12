@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:spi_control-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,4 +14,329 @@ Comment2 "Leo L."
 Comment3 "Austin S."
 Comment4 "Design Engineers:"
 $EndDescr
+$Comp
+L bloop:MCP2210-I_MQ U?
+U 1 1 5DA1EC81
+P 5600 2300
+F 0 "U?" H 5600 3065 50  0000 C CNN
+F 1 "MCP2210-I_MQ" H 5600 2974 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 5650 1400 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf" H 5500 2700 50  0001 C CNN
+	1    5600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5DA21200
+P 1400 2100
+F 0 "J?" H 1457 2567 50  0000 C CNN
+F 1 "USB_B_Micro" H 1457 2476 50  0000 C CNN
+F 2 "" H 1550 2050 50  0001 C CNN
+F 3 "~" H 1550 2050 50  0001 C CNN
+	1    1400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2500 1400 2550
+Wire Wire Line
+	1300 2550 1300 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5DA25B6B
+P 1850 3250
+F 0 "#PWR?" H 1850 3000 50  0001 C CNN
+F 1 "GND" H 1855 3077 50  0000 C CNN
+F 2 "" H 1850 3250 50  0001 C CNN
+F 3 "" H 1850 3250 50  0001 C CNN
+	1    1850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA26DA3
+P 3200 2850
+F 0 "D?" V 3239 2733 50  0000 R CNN
+F 1 "LED" V 3148 2733 50  0000 R CNN
+F 2 "" H 3200 2850 50  0001 C CNN
+F 3 "~" H 3200 2850 50  0001 C CNN
+	1    3200 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA27A9F
+P 7250 3200
+F 0 "D?" V 7289 3083 50  0000 R CNN
+F 1 "LED" V 7198 3083 50  0000 R CNN
+F 2 "" H 7250 3200 50  0001 C CNN
+F 3 "~" H 7250 3200 50  0001 C CNN
+	1    7250 3200
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1700 2300
+$Comp
+L dk_TVS-Diodes:SP0503BAHTG D?
+U 1 1 5DA2E4E9
+P 2450 2700
+F 0 "D?" H 2400 2353 60  0000 C CNN
+F 1 "SP0503BAHTG" H 2400 2459 60  0000 C CNN
+F 2 "digikey-footprints:SOT-143-4" H 2650 2900 60  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2650 3000 60  0001 L CNN
+F 4 "F2715CT-ND" H 2650 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "SP0503BAHTG" H 2650 3200 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 2650 3300 60  0001 L CNN "Category"
+F 7 "TVS - Diodes" H 2650 3400 60  0001 L CNN "Family"
+F 8 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2650 3500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/littelfuse-inc/SP0503BAHTG/F2715CT-ND/1154322" H 2650 3600 60  0001 L CNN "DK_Detail_Page"
+F 10 "TVS DIODE 5.5V 8.5V SOT143-4" H 2650 3700 60  0001 L CNN "Description"
+F 11 "Littelfuse Inc." H 2650 3800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2650 3900 60  0001 L CNN "Status"
+	1    2450 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DA3AE44
+P 1600 3150
+F 0 "C?" V 1852 3150 50  0000 C CNN
+F 1 "100p" V 1761 3150 50  0000 C CNN
+F 2 "" H 1638 3000 50  0001 C CNN
+F 3 "~" H 1600 3150 50  0001 C CNN
+	1    1600 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5DA3C4CB
+P 1600 2800
+F 0 "R?" V 1805 2800 50  0000 C CNN
+F 1 "1M" V 1714 2800 50  0000 C CNN
+F 2 "" V 1640 2790 50  0001 C CNN
+F 3 "~" H 1600 2800 50  0001 C CNN
+	1    1600 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 2100 2050 2100
+Wire Wire Line
+	5100 2200 2150 2200
+Wire Wire Line
+	2250 2600 2150 2600
+Wire Wire Line
+	2150 2600 2150 2200
+Connection ~ 2150 2200
+Wire Wire Line
+	2150 2200 1700 2200
+Wire Wire Line
+	2250 2800 2050 2800
+Wire Wire Line
+	2050 2800 2050 2100
+Connection ~ 2050 2100
+Wire Wire Line
+	1700 1900 2850 1900
+Wire Wire Line
+	2750 2600 2850 2600
+Wire Wire Line
+	2850 2600 2850 1900
+Connection ~ 2850 1900
+Wire Wire Line
+	2850 1900 3200 1900
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5DA4C927
+P 1300 3250
+F 0 "#PWR?" H 1300 3050 50  0001 C CNN
+F 1 "GNDPWR" H 1304 3096 50  0000 C CNN
+F 2 "" H 1300 3200 50  0001 C CNN
+F 3 "" H 1300 3200 50  0001 C CNN
+	1    1300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3250 1300 3150
+Connection ~ 1300 2550
+Wire Wire Line
+	1300 2550 1400 2550
+Wire Wire Line
+	1450 2800 1300 2800
+Connection ~ 1300 2800
+Wire Wire Line
+	1300 2800 1300 2550
+Wire Wire Line
+	1450 3150 1300 3150
+Connection ~ 1300 3150
+Wire Wire Line
+	1300 3150 1300 2800
+Wire Wire Line
+	1750 2800 1850 2800
+Wire Wire Line
+	1750 3150 1850 3150
+Wire Wire Line
+	1850 3150 1850 3250
+Wire Wire Line
+	1850 3150 1850 2800
+Connection ~ 1850 3150
+Wire Wire Line
+	2750 2800 2850 2800
+Wire Wire Line
+	2850 2800 2850 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5DA535CA
+P 2850 2850
+F 0 "#PWR?" H 2850 2600 50  0001 C CNN
+F 1 "GND" H 2855 2677 50  0000 C CNN
+F 2 "" H 2850 2850 50  0001 C CNN
+F 3 "" H 2850 2850 50  0001 C CNN
+	1    2850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5DA58A20
+P 3200 2450
+F 0 "R?" H 3268 2496 50  0000 L CNN
+F 1 "820" H 3268 2405 50  0000 L CNN
+F 2 "" V 3240 2440 50  0001 C CNN
+F 3 "~" H 3200 2450 50  0001 C CNN
+	1    3200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5A480
+P 3200 3050
+F 0 "#PWR?" H 3200 2800 50  0001 C CNN
+F 1 "GND" H 3205 2877 50  0000 C CNN
+F 2 "" H 3200 3050 50  0001 C CNN
+F 3 "" H 3200 3050 50  0001 C CNN
+	1    3200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2100 5100 2100
+Wire Wire Line
+	3200 2700 3200 2600
+Wire Wire Line
+	3200 3000 3200 3050
+Wire Wire Line
+	3200 2300 3200 1900
+$Comp
+L Device:Crystal Y?
+U 1 1 5DA6AEC7
+P 4250 3000
+F 0 "Y?" H 4250 3268 50  0000 C CNN
+F 1 "12MHZ" H 4250 3177 50  0000 C CNN
+F 2 "" H 4250 3000 50  0001 C CNN
+F 3 "~" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2750 4500 3000
+$Comp
+L Device:C C?
+U 1 1 5DA6EF8F
+P 4500 3250
+F 0 "C?" H 4385 3204 50  0000 R CNN
+F 1 "100p" H 4385 3295 50  0000 R CNN
+F 2 "" H 4538 3100 50  0001 C CNN
+F 3 "~" H 4500 3250 50  0001 C CNN
+	1    4500 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DA71109
+P 4000 3250
+F 0 "C?" H 3885 3204 50  0000 R CNN
+F 1 "100p" H 3885 3295 50  0000 R CNN
+F 2 "" H 4038 3100 50  0001 C CNN
+F 3 "~" H 4000 3250 50  0001 C CNN
+	1    4000 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 3400 4000 3450
+Wire Wire Line
+	4000 3450 4250 3450
+Wire Wire Line
+	4500 3450 4500 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5DA730AB
+P 4250 3500
+F 0 "#PWR?" H 4250 3250 50  0001 C CNN
+F 1 "GND" H 4255 3327 50  0000 C CNN
+F 2 "" H 4250 3500 50  0001 C CNN
+F 3 "" H 4250 3500 50  0001 C CNN
+	1    4250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3500 4250 3450
+Connection ~ 4250 3450
+Wire Wire Line
+	4250 3450 4500 3450
+Wire Wire Line
+	4500 2750 5100 2750
+Wire Wire Line
+	4400 3000 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4500 3100
+Wire Wire Line
+	4100 3000 4000 3000
+Connection ~ 4000 3000
+Wire Wire Line
+	4000 3000 4000 3100
+Wire Wire Line
+	4000 2650 5100 2650
+Wire Wire Line
+	4000 2650 4000 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5DA7B662
+P 5000 3050
+F 0 "#PWR?" H 5000 2800 50  0001 C CNN
+F 1 "GND" H 5005 2877 50  0000 C CNN
+F 2 "" H 5000 3050 50  0001 C CNN
+F 3 "" H 5000 3050 50  0001 C CNN
+	1    5000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2950 5000 2950
+Wire Wire Line
+	5000 2950 5000 3050
+Wire Wire Line
+	7250 2450 7250 2700
+Wire Wire Line
+	6100 2450 7250 2450
+$Comp
+L Device:R_US R?
+U 1 1 5DA80FEC
+P 7250 2850
+F 0 "R?" H 7318 2896 50  0000 L CNN
+F 1 "820" H 7318 2805 50  0000 L CNN
+F 2 "" V 7290 2840 50  0001 C CNN
+F 3 "~" H 7250 2850 50  0001 C CNN
+	1    7250 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3000 7250 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5DA95E17
+P 7250 3450
+F 0 "#PWR?" H 7250 3200 50  0001 C CNN
+F 1 "GND" H 7255 3277 50  0000 C CNN
+F 2 "" H 7250 3450 50  0001 C CNN
+F 3 "" H 7250 3450 50  0001 C CNN
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3350 7250 3450
 $EndSCHEMATC

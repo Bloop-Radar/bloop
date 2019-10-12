@@ -24,4 +24,9 @@ D Transmission line stub
 K Stub, transmission line
 $ENDCMP
 #
+$CMP MCP2210-I_MQ
+D USB-to-SPI Protocol Converter with GPIO (Master Mode)
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
+$ENDCMP
+#
 #End Doc Library
