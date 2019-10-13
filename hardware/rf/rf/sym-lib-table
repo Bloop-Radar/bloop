@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name bloop)(type Legacy)(uri ${KIPRJMOD}/../../lib/bloop.lib)(options "")(descr "Bloop radar schematic symbols"))
-  (lib (name rf-rescue)(type Legacy)(uri ${KIPRJMOD}/rf-rescue.lib)(options "")(descr ""))
 )
