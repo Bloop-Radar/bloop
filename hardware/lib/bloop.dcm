@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADAR7251
+D 4-Channel, 16-Bit, Continuous Time Data Acquisition ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADAR7251.pdf
+$ENDCMP
+#
 $CMP BGT24MTR12
 D Silicon Germanium 24 GHz Transceiver MMIC
 F https://www.infineon.com/dgdl/BGT24MTR12_v3.pdf?folderId=db3a30431f848401011fcbf2ab4c04c4&fileId=db3a304339dcf4b10139df108e75025b
