@@ -1,7 +1,7 @@
 (kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
-    (thickness 1.6)
+    (thickness 0.32512)
     (drawings 0)
     (tracks 0)
     (zones 0)
@@ -12,7 +12,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu power)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -34,15 +34,15 @@
   )
 
   (setup
-    (last_trace_width 0.25)
-    (trace_clearance 0.2)
+    (last_trace_width 0.1778)
+    (trace_clearance 0.1778)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.2)
+    (trace_min 0.125)
     (via_size 0.8)
     (via_drill 0.4)
-    (via_min_size 0.4)
-    (via_min_drill 0.3)
+    (via_min_size 0.6)
+    (via_min_drill 0.35)
     (uvia_size 0.3)
     (uvia_drill 0.1)
     (uvias_allowed no)
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -93,7 +93,25 @@
   (net 0 "")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
+    (clearance 0.1778)
+    (trace_width 0.1778)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (net_class 50ohm_1.5GHz ""
+    (clearance 0.127)
+    (trace_width 0.5334)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (net_class 50ohm_24GHz ""
+    (clearance 0.127)
     (trace_width 0.25)
     (via_dia 0.8)
     (via_drill 0.4)
