@@ -1,4 +1,4 @@
-(module 292-06A-5 (layer F.Cu) (tedit 5D9A26E0)
+(module 292-06A-5 (layer F.Cu) (tedit 5DA53D17)
   (solder_mask_margin 0.000254)
   (solder_paste_margin -0.000254)
   (clearance 0.000254)
@@ -1889,7 +1889,7 @@
          (xy 0.4891 -0.7884) (xy 0.4721 -0.7874) (xy 0.4541 -0.7874) (xy -0.1929 -0.7624) (xy -0.2719 0.2536)
          (xy 2.8421 0.2536)) (width 0))
     ))
-  (model ../../lib/3d/292-06A-5.stp
+  (model ../lib/3d/292-06A-5.stp
     (offset (xyz 0 -4.1428 0.07000000000000001))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
