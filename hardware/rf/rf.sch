@@ -760,11 +760,11 @@ $EndComp
 Connection ~ 7750 2600
 Wire Wire Line
 	7750 2600 7975 2600
-Text Label 8800 7650 0    50   ~ 0
-SPI_CE_PLL
 Text Label 8800 7450 0    50   ~ 0
-SPI_CLK
+SPI_CE_PLL
 Text Label 8800 7550 0    50   ~ 0
+SPI_CLK
+Text Label 8800 7650 0    50   ~ 0
 SPI_MOSI
 Text Label 8800 7750 0    50   ~ 0
 PLL_LE
@@ -1583,11 +1583,11 @@ Wire Wire Line
 	9350 8750 9350 8950
 Connection ~ 9350 8750
 Wire Wire Line
-	8800 7550 9450 7550
-Wire Wire Line
-	9450 7450 8800 7450
-Wire Wire Line
 	8800 7650 9450 7650
+Wire Wire Line
+	9450 7550 8800 7550
+Wire Wire Line
+	8800 7450 9450 7450
 Wire Wire Line
 	9450 7750 8800 7750
 Wire Wire Line
