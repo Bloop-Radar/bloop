@@ -75,26 +75,6 @@ F 3 "~" H 10600 1900 50  0001 C CNN
 $EndComp
 NoConn ~ 1450 1650
 $Comp
-L dk_TVS-Diodes:SP0503BAHTG D?
-U 1 1 5DA2E4E9
-P 2250 2050
-F 0 "D?" H 2200 1703 60  0000 C CNN
-F 1 "SP0503BAHTG" H 2200 1809 60  0000 C CNN
-F 2 "digikey-footprints:SOT-143-4" H 2450 2250 60  0001 L CNN
-F 3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2450 2350 60  0001 L CNN
-F 4 "F2715CT-ND" H 2450 2450 60  0001 L CNN "Digi-Key_PN"
-F 5 "SP0503BAHTG" H 2450 2550 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 2450 2650 60  0001 L CNN "Category"
-F 7 "TVS - Diodes" H 2450 2750 60  0001 L CNN "Family"
-F 8 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2450 2850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/littelfuse-inc/SP0503BAHTG/F2715CT-ND/1154322" H 2450 2950 60  0001 L CNN "DK_Detail_Page"
-F 10 "TVS DIODE 5.5V 8.5V SOT143-4" H 2450 3050 60  0001 L CNN "Description"
-F 11 "Littelfuse Inc." H 2450 3150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2450 3250 60  0001 L CNN "Status"
-	1    2250 2050
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5DA3AE44
 P 1350 2500
@@ -338,6 +318,7 @@ F 0 "U?" H 4150 1915 50  0000 C CNN
 F 1 "ST1L08SPU33R" H 4150 1824 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm" H 4200 1050 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/5f/25/d1/3f/f8/25/44/07/DM00123507.pdf/files/DM00123507.pdf/jcr:content/translations/en.DM00123507.pdf" H 4150 1650 50  0001 C CNN
+F 4 "ST1L08SPU33R" H 4150 1450 50  0000 C CNN "MPN"
 	1    4150 1450
 	1    0    0    -1  
 $EndComp
@@ -2289,4 +2270,24 @@ F 3 "~" H 15100 6200 50  0001 C CNN
 $EndComp
 Text Notes 14000 4800 0    50   ~ 0
 TODO: Find a connector for these IO
+$Comp
+L bloop:SP0503BAHTG D?
+U 1 1 5DB06C59
+P 2250 2050
+F 0 "D?" H 2200 1703 60  0000 C CNN
+F 1 "SP0503BAHTG" H 2200 1809 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 2450 2250 60  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2450 2350 60  0001 L CNN
+F 4 "F2715CT-ND" H 2450 2450 60  0001 L CNN "Digi-Key_PN"
+F 5 "SP0503BAHTG" H 2450 2550 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 2450 2650 60  0001 L CNN "Category"
+F 7 "TVS - Diodes" H 2450 2750 60  0001 L CNN "Family"
+F 8 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2450 2850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/littelfuse-inc/SP0503BAHTG/F2715CT-ND/1154322" H 2450 2950 60  0001 L CNN "DK_Detail_Page"
+F 10 "TVS DIODE 5.5V 8.5V SOT143-4" H 2450 3050 60  0001 L CNN "Description"
+F 11 "Littelfuse Inc." H 2450 3150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2450 3250 60  0001 L CNN "Status"
+	1    2250 2050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
