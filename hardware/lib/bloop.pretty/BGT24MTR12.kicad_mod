@@ -1,4 +1,4 @@
-(module BGT24MTR12 (layer F.Cu) (tedit 5DA53504)
+(module BGT24MTR12 (layer F.Cu) (tedit 5DABD615)
   (attr smd)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -86,4 +86,9 @@
          (xy -0.8833 0.2667) (xy -0.2333 0.2667) (xy -0.2333 -0.2333) (xy 0.2667 -0.2333) (xy 0.2667 1.8667)
          (xy -0.5833 1.8667) (xy -0.5833 3.2667) (xy -0.8833 3.2667)) (width 0))
     ))
+  (model ../lib/3d/BGT24MTR12_VQFN32-9.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
