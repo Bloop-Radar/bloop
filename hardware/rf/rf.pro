@@ -1,4 +1,4 @@
-update=10/16/2019 8:17:20 PM
+update=10/17/2019 9:58:57 PM
 version=1
 last_client=kicad
 [general]
@@ -18,14 +18,14 @@ PageLayoutDescrFile=../../lib/bloop.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=../../lib/bloop.kicad_wks
-LastNetListRead=
+LastNetListRead=rf.net
 CopperLayerCount=4
 BoardThickness=1.06
 AllowMicroVias=0
@@ -38,7 +38,7 @@ MinViaDrill=0.35
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.125
-TrackWidth1=0.1778
+TrackWidth1=0.5334
 TrackWidth2=0.125
 TrackWidth3=0.25
 TrackWidth4=0.3
@@ -72,7 +72,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
