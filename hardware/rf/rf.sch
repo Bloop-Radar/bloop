@@ -597,7 +597,7 @@ U 1 1 5D3E2D0F
 P 5650 4700
 F 0 "U2" H 5650 6350 60  0000 C CNN
 F 1 "LMX2491" H 5650 3500 60  0000 C CNN
-F 2 "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias" H 5650 4500 60  0001 C CNN
+F 2 "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm" H 5650 4500 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmx2491.pdf" H 5650 4700 60  0001 C CNN
 F 4 "LMX2491RTWR" H 5650 4700 50  0001 C CNN "MPN"
 	1    5650 4700
@@ -667,7 +667,7 @@ P 16000 3050
 F 0 "J2" H 15957 3201 50  0000 L CNN
 F 1 "SMP" H 16060 2920 50  0000 L CNN
 F 2 "bloop:85305-0232" H 16000 3050 50  0001 C CNN
-F 3 " ~" H 16000 3050 50  0001 C CNN
+F 3 "https://www.molex.com/molex/products/datasheet.jsp?part=active/0853050232_RF_COAX_CONNECTORS.xml" H 16000 3050 50  0001 C CNN
 	1    16000 3050
 	1    0    0    -1  
 $EndComp
@@ -678,7 +678,7 @@ P 16000 3800
 F 0 "J3" H 15957 3951 50  0000 L CNN
 F 1 "SMP" H 16060 3670 50  0000 L CNN
 F 2 "bloop:85305-0232" H 16000 3800 50  0001 C CNN
-F 3 " ~" H 16000 3800 50  0001 C CNN
+F 3 "https://www.molex.com/molex/products/datasheet.jsp?part=active/0853050232_RF_COAX_CONNECTORS.xml" H 16000 3800 50  0001 C CNN
 	1    16000 3800
 	1    0    0    -1  
 $EndComp
@@ -689,7 +689,7 @@ P 16000 4600
 F 0 "J4" H 15957 4751 50  0000 L CNN
 F 1 "SMP" H 16060 4470 50  0000 L CNN
 F 2 "bloop:85305-0232" H 16000 4600 50  0001 C CNN
-F 3 " ~" H 16000 4600 50  0001 C CNN
+F 3 "https://www.molex.com/molex/products/datasheet.jsp?part=active/0853050232_RF_COAX_CONNECTORS.xml" H 16000 4600 50  0001 C CNN
 	1    16000 4600
 	1    0    0    -1  
 $EndComp
