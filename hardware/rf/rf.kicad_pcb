@@ -2780,7 +2780,7 @@
   (gr_text TX (at 142.621 106.5959) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "REV A" (at 145.542 89.5779) (layer F.SilkS)
+  (gr_text "Rev A" (at 145.542 89.5779) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.0762)) (justify left))
   )
   (gr_text "BGT24 Module" (at 145.542 88.6889) (layer F.SilkS)
