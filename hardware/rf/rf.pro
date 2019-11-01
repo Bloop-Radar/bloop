@@ -1,4 +1,4 @@
-update=Mon 28 Oct 2019 01:25:12 PM CDT
+update=Fri 01 Nov 2019 12:30:35 AM CDT
 version=1
 last_client=kicad
 [general]
@@ -12,9 +12,19 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=../lib/bloop.kicad_wks
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=../../lib/bloop.kicad_wks
+PageLayoutDescrFile=/home/leo/projects/bloop/hardware/lib/bloop.kicad_wks
 LastNetListRead=rf.net
 CopperLayerCount=4
 BoardThickness=1.06
@@ -67,7 +77,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.03
 SolderMaskMinWidth=0.06999999999999999
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -268,13 +278,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=../lib/bloop.kicad_wks
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
