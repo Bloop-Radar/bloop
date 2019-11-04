@@ -1,4 +1,6 @@
-(module BGT24_Module_Castellations (layer F.Cu) (tedit 5DB3EF2B)
+(module BGT24_Module_Castellations (layer F.Cu) (tedit 5DBF718B)
+  (descr "The castellations for the Bloop BGT24 Module")
+  (attr smd)
   (fp_text reference REF** (at 9.652 13.462) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
