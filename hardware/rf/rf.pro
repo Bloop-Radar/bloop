@@ -1,4 +1,4 @@
-update=Fri 01 Nov 2019 12:30:35 AM CDT
+update=11/4/2019 8:34:57 PM
 version=1
 last_client=kicad
 [general]
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=/home/leo/projects/bloop/hardware/lib/bloop.kicad_wks
+PageLayoutDescrFile=../lib/bloop.kicad_wks
 LastNetListRead=rf.net
 CopperLayerCount=4
 BoardThickness=1.06
