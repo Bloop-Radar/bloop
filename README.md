@@ -10,7 +10,7 @@ The goal for this project is not to make an application-specific radar but inste
 Currently, the software solution for Bloop is still unknown as the hardware is still being developed. The plan is to use the ECP5 as the FPGA for this platform and open-source FPGA toolchains available such as [Yosys](https://github.com/YosysHQ/yosys) and [nextpnr](https://github.com/YosysHQ/nextpnr).
 
 ## Hardware
-The hardware will consist of three modules: an **antenna module** (work in progress), a **RF module** (work in progress), and a **digital module** (work in progress).
+The hardware will consist of three modules: an **antenna module** (work in progress), **RF module** ([BGT24 Module](#bgt24-module---rev-a)), and **digital module** (work in progress).
 
 
 ### Planned Hardware Specifications 
@@ -23,9 +23,12 @@ The hardware will consist of three modules: an **antenna module** (work in progr
 * USB
 * ... and more TBD
 
-<!-- ### BGT24 Module - Rev A
-Work In Progress
--->
+### BGT24 Module - Rev A
+![BGT24_Module_3drender](hardware/rf/outputs/BGT24_Module_3drender.png)  
+
+The BGT24 Module is the RF module for the Bloop radar platform, which provides differential I&Q data for RX1 and RX2 along with SPI and modulation control for the LMX2491 PLL and BGT24MTR12 RF transceiver. 
+
+This module will continue to evolve as we test with the SPI Control prototyping hardware and develop some PCB antennas to test with.  
 
 ## Prototyping Hardware
 Hardware found under `hardware/prototypes` is solely used to develop/evaluate the function of the RF section, BGT24 module, and the ADAR7251 ADC.

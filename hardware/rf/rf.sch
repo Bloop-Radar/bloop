@@ -5,7 +5,7 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "Radar MMIC and RF Front-End"
+Title "BGT24 Module"
 Date "2019-10-12"
 Rev "A"
 Comp ""
