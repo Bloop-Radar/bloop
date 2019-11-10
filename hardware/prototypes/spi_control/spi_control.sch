@@ -2545,23 +2545,15 @@ Text Label 18725 8425 1    50   ~ 0
 PLL_LE
 Text Label 18625 8425 1    50   ~ 0
 PLL_DIV_MCU
-Text Label 8925 6550 0    50   ~ 0
-F_IF2_I-
-Text Label 8925 6450 0    50   ~ 0
-F_IF2_I+
-Text Label 8950 6150 0    50   ~ 0
-F_IF2_Q-
-Text Label 8950 6050 0    50   ~ 0
-F_IF2_Q+
-Text Label 8950 5750 0    50   ~ 0
+Text Label 9000 5350 0    50   ~ 0
 F_IF1_I-
-Text Label 8950 5650 0    50   ~ 0
+Text Label 9025 5250 0    50   ~ 0
 F_IF1_I+
-Text Label 8950 5350 0    50   ~ 0
+Text Label 9075 5750 0    50   ~ 0
 F_IF1_Q-
-Text Label 8950 5250 0    50   ~ 0
+Text Label 9075 5650 0    50   ~ 0
 F_IF1_Q+
-Text Label 6700 4550 0    50   ~ 0
+Text Label 6700 5300 0    50   ~ 0
 IF1_Q+
 Wire Notes Line
 	6825 7450 6825 4350
@@ -2573,11 +2565,11 @@ Wire Wire Line
 	6700 4950 7250 4950
 Wire Wire Line
 	6700 4550 7400 4550
-Text Label 6700 5700 0    50   ~ 0
-IF1_I-
-Text Label 6700 5300 0    50   ~ 0
-IF1_I+
 Text Label 6700 4950 0    50   ~ 0
+IF1_I-
+Text Label 6700 4550 0    50   ~ 0
+IF1_I+
+Text Label 6700 5700 0    50   ~ 0
 IF1_Q-
 Wire Wire Line
 	6700 7250 7250 7250
@@ -2587,14 +2579,6 @@ Wire Wire Line
 	6700 6500 7250 6500
 Wire Wire Line
 	6700 6100 7400 6100
-Text Label 6700 7250 0    50   ~ 0
-IF2_I-
-Text Label 6700 6850 0    50   ~ 0
-IF2_I+
-Text Label 6700 6500 0    50   ~ 0
-IF2_Q-
-Text Label 6700 6100 0    50   ~ 0
-IF2_Q+
 Wire Wire Line
 	18525 7275 18525 6625
 Wire Wire Line
@@ -5622,7 +5606,7 @@ F 1 "GND" H 10955 8702 50  0000 C CNN
 F 2 "" H 10950 8875 50  0001 C CNN
 F 3 "" H 10950 8875 50  0001 C CNN
 	1    10950 8875
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:Crystal_GND24 Y2
@@ -5634,7 +5618,7 @@ F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 10700 8875 50  0001
 F 3 "https://ecsxtal.com/store/pdf/ecx-32.pdf" H 10700 8875 50  0001 C CNN
 F 4 "ECS-400-18-33-JGN-TR" H 10700 8875 50  0001 C CNN "MPN"
 	1    10700 8875
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	10900 8875 10950 8875
@@ -5647,8 +5631,24 @@ F 1 "GND" H 10455 8702 50  0000 C CNN
 F 2 "" H 10450 8875 50  0001 C CNN
 F 3 "" H 10450 8875 50  0001 C CNN
 	1    10450 8875
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	10500 8875 10450 8875
+Text Label 8950 6150 0    50   ~ 0
+F_IF2_Q-
+Text Label 8925 6550 0    50   ~ 0
+F_IF2_I-
+Text Label 8950 6050 0    50   ~ 0
+F_IF2_Q+
+Text Label 8925 6450 0    50   ~ 0
+F_IF2_I+
+Text Label 6700 6500 0    50   ~ 0
+IF2_Q-
+Text Label 6700 7250 0    50   ~ 0
+IF2_I-
+Text Label 6700 6850 0    50   ~ 0
+IF2_I+
+Text Label 6700 6100 0    50   ~ 0
+IF2_Q+
 $EndSCHEMATC
