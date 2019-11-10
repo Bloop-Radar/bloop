@@ -75,17 +75,7 @@ F 3 "~" H 1350 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1450 1500 1850 1500
-Wire Wire Line
-	2050 2000 1950 2000
-Wire Wire Line
-	1950 2000 1950 1600
-Wire Wire Line
 	1950 1600 1450 1600
-Wire Wire Line
-	2050 2200 1850 2200
-Wire Wire Line
-	1850 2200 1850 1500
 Wire Wire Line
 	2550 2000 2650 2000
 Wire Wire Line
@@ -140,18 +130,6 @@ F 3 "" H 2850 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 2500 2850 2550
-$Comp
-L Device:Crystal Y1
-U 1 1 5DA6AEC7
-P 7500 2500
-F 0 "Y1" H 7500 2750 50  0000 C CNN
-F 1 "12MHZ" H 7500 2677 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 7500 2500 50  0001 C CNN
-F 3 "https://ecsxtal.com/store/pdf/ecx-32.pdf" H 7500 2500 50  0001 C CNN
-F 4 "ECS-120-12-33-AGN-TR" H 7500 2676 50  0001 C CNN "MPN"
-	1    7500 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7750 2250 7750 2500
 $Comp
@@ -178,8 +156,6 @@ F 3 "~" H 7250 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7250 2900 7250 2950
-Wire Wire Line
-	7250 2950 7500 2950
 Wire Wire Line
 	7750 2950 7750 2900
 $Comp
@@ -683,18 +659,6 @@ Wire Wire Line
 Text Notes 13450 7900 0    50   ~ 0
 PLL Loop Filter
 $Comp
-L Device:Crystal Y2
-U 1 1 5DD040BC
-P 10700 8850
-F 0 "Y2" V 10746 8981 50  0000 L CNN
-F 1 "40MHz" V 10655 8981 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 10700 8850 50  0001 C CNN
-F 3 "https://ecsxtal.com/store/pdf/ecx-32.pdf" H 10700 8850 50  0001 C CNN
-F 4 "ECS-400-18-33-JGN-TR" V 10700 8850 50  0001 C CNN "MPN"
-	1    10700 8850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C25
 U 1 1 5DD05357
 P 11050 8600
@@ -717,13 +681,6 @@ F 3 "~" H 11050 9100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10350 8600 10700 8600
-Wire Wire Line
-	10700 8700 10700 8600
-Connection ~ 10700 8600
-Wire Wire Line
-	10700 8600 10900 8600
-Wire Wire Line
 	11200 8600 11250 8600
 Wire Wire Line
 	11250 8600 11250 9100
@@ -731,8 +688,6 @@ Wire Wire Line
 	11250 9100 11200 9100
 Wire Wire Line
 	10900 9100 10700 9100
-Wire Wire Line
-	10700 9100 10700 9000
 Wire Wire Line
 	10700 9100 10350 9100
 Connection ~ 10700 9100
@@ -2079,16 +2034,16 @@ PLL_TRIG1
 Text Label 19350 6100 1    50   ~ 0
 PLL_TRIG2
 Wire Wire Line
-	19250 5450 19250 6100
-Text Label 19250 6100 1    50   ~ 0
+	19050 5450 19050 6100
+Text Label 19050 6100 1    50   ~ 0
 PLL_MOD
 Wire Wire Line
 	19150 5450 19150 6100
 Text Label 19150 6100 1    50   ~ 0
 PLL_MUX
 Wire Wire Line
-	19050 5450 19050 6100
-Text Label 19050 6100 1    50   ~ 0
+	19250 5450 19250 6100
+Text Label 19250 6100 1    50   ~ 0
 PLL_RSET
 Wire Wire Line
 	19450 5450 19450 6100
@@ -5608,4 +5563,92 @@ D1 FE 93 2A 00 F0 9A 34 EE 83 A5 FD 58 47 EE 02 7E 7E D0 76 BB 81 96 74 B7 02 21
 60 82 
 EndData
 $EndBitmap
+Wire Wire Line
+	1950 1600 1950 2200
+Wire Wire Line
+	1950 2200 2050 2200
+Wire Wire Line
+	2050 2000 2050 1500
+Wire Wire Line
+	1450 1500 2050 1500
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5FC6E4E6
+P 7500 2500
+F 0 "Y1" H 7694 2546 50  0000 L CNN
+F 1 "12MHZ" H 7375 2750 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 7500 2500 50  0001 C CNN
+F 3 "https://ecsxtal.com/store/pdf/ecx-32.pdf" H 7500 2500 50  0001 C CNN
+F 4 "ECS-120-12-33-AGN-TR" H 7500 2500 50  0001 C CNN "MPN"
+	1    7500 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 8600
+Wire Wire Line
+	10700 8600 10900 8600
+Wire Wire Line
+	10350 8600 10700 8600
+Wire Wire Line
+	10700 8600 10700 8725
+Wire Wire Line
+	10700 9100 10700 9025
+Wire Wire Line
+	7250 2950 7500 2950
+Wire Wire Line
+	7500 2950 7500 2700
+Wire Wire Line
+	7500 2300 7500 2200
+Wire Wire Line
+	7500 2200 7675 2200
+$Comp
+L power:GND #PWR0146
+U 1 1 60004941
+P 7675 2350
+F 0 "#PWR0146" H 7675 2100 50  0001 C CNN
+F 1 "GND" H 7600 2375 50  0000 C CNN
+F 2 "" H 7675 2350 50  0001 C CNN
+F 3 "" H 7675 2350 50  0001 C CNN
+	1    7675 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7675 2200 7675 2350
+$Comp
+L power:GND #PWR0147
+U 1 1 600397BF
+P 10950 8875
+F 0 "#PWR0147" H 10950 8625 50  0001 C CNN
+F 1 "GND" H 10955 8702 50  0000 C CNN
+F 2 "" H 10950 8875 50  0001 C CNN
+F 3 "" H 10950 8875 50  0001 C CNN
+	1    10950 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24 Y2
+U 1 1 5FD6D80E
+P 10700 8875
+F 0 "Y2" H 10850 9125 50  0000 L CNN
+F 1 "40MHz" H 10575 9125 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 10700 8875 50  0001 C CNN
+F 3 "https://ecsxtal.com/store/pdf/ecx-32.pdf" H 10700 8875 50  0001 C CNN
+F 4 "ECS-400-18-33-JGN-TR" H 10700 8875 50  0001 C CNN "MPN"
+	1    10700 8875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10900 8875 10950 8875
+$Comp
+L power:GND #PWR0148
+U 1 1 6017CD63
+P 10450 8875
+F 0 "#PWR0148" H 10450 8625 50  0001 C CNN
+F 1 "GND" H 10455 8702 50  0000 C CNN
+F 2 "" H 10450 8875 50  0001 C CNN
+F 3 "" H 10450 8875 50  0001 C CNN
+	1    10450 8875
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 8875 10450 8875
 $EndSCHEMATC
