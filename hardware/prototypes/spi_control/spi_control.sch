@@ -2012,12 +2012,12 @@ F 3 "" H 6050 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19425 7775 19425 8425
+	18625 7275 18625 6625
 Wire Wire Line
 	19625 7775 19625 8425
 Wire Wire Line
 	19525 7775 19525 8425
-Text Label 19425 8425 1    50   ~ 0
+Text Label 18625 6625 3    50   ~ 0
 ~CONV_START
 Text Label 18050 6100 1    50   ~ 0
 DATA_READY
@@ -2050,20 +2050,20 @@ Wire Wire Line
 Wire Wire Line
 	19550 5450 19550 6100
 Wire Wire Line
-	18325 7775 18325 8425
+	18725 7275 18725 6625
 Wire Wire Line
-	18425 7775 18425 8425
+	18925 7275 18925 6625
 Wire Wire Line
-	18525 7775 18525 8425
+	18825 7275 18825 6625
 Wire Wire Line
 	18825 7775 18825 8425
 Wire Wire Line
 	19650 5450 19650 6100
-Text Label 18525 8425 1    50   ~ 0
+Text Label 18825 6625 3    50   ~ 0
 MISO
-Text Label 18425 8425 1    50   ~ 0
+Text Label 18925 6625 3    50   ~ 0
 MOSI
-Text Label 18325 8425 1    50   ~ 0
+Text Label 18725 6625 3    50   ~ 0
 SCK
 Text Label 18825 8425 1    50   ~ 0
 PLL_CS
@@ -2580,41 +2580,41 @@ Wire Wire Line
 Wire Wire Line
 	6700 6100 7400 6100
 Wire Wire Line
-	18525 7275 18525 6625
-Wire Wire Line
-	18625 7275 18625 6625
-Wire Wire Line
-	18725 7275 18725 6625
-Wire Wire Line
-	18825 7275 18825 6625
-Text Label 18225 8425 1    50   ~ 0
-SCLK_ADC
-Text Label 18125 6625 3    50   ~ 0
-ADC_DOUT7
-Text Label 18225 6625 3    50   ~ 0
-ADC_DOUT6
-Text Label 18325 6625 3    50   ~ 0
-ADC_DOUT5
-Text Label 18425 6625 3    50   ~ 0
-ADC_DOUT4
-Text Label 18525 6625 3    50   ~ 0
-ADC_DOUT3
-Text Label 18625 6625 3    50   ~ 0
-ADC_DOUT2
-Text Label 18725 6625 3    50   ~ 0
-ADC_DOUT1
-Text Label 18825 6625 3    50   ~ 0
-ADC_DOUT0
-Wire Wire Line
-	18225 7775 18225 8425
-Wire Wire Line
-	18125 7275 18125 6625
-Wire Wire Line
-	18225 7275 18225 6625
+	18425 7275 18425 6625
 Wire Wire Line
 	18325 7275 18325 6625
 Wire Wire Line
-	18425 7275 18425 6625
+	18225 7275 18225 6625
+Wire Wire Line
+	18125 7275 18125 6625
+Text Label 18525 6625 3    50   ~ 0
+SCLK_ADC
+Text Label 18525 8425 1    50   ~ 0
+ADC_DOUT7
+Text Label 18425 8425 1    50   ~ 0
+ADC_DOUT6
+Text Label 18325 8425 1    50   ~ 0
+ADC_DOUT5
+Text Label 18225 8425 1    50   ~ 0
+ADC_DOUT4
+Text Label 18425 6625 3    50   ~ 0
+ADC_DOUT3
+Text Label 18325 6625 3    50   ~ 0
+ADC_DOUT2
+Text Label 18225 6625 3    50   ~ 0
+ADC_DOUT1
+Text Label 18125 6625 3    50   ~ 0
+ADC_DOUT0
+Wire Wire Line
+	18525 7275 18525 6625
+Wire Wire Line
+	18525 7775 18525 8425
+Wire Wire Line
+	18425 7775 18425 8425
+Wire Wire Line
+	18325 7775 18325 8425
+Wire Wire Line
+	18225 7775 18225 8425
 Wire Wire Line
 	18725 7775 18725 8425
 Wire Wire Line
