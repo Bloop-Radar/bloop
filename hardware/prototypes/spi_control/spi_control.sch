@@ -2379,11 +2379,7 @@ Connection ~ 2325 7225
 Wire Wire Line
 	2325 7225 2425 7225
 Wire Notes Line
-	5400 4250 6675 4250
-Wire Notes Line
 	6675 4250 6675 7350
-Wire Notes Line
-	6675 7350 5400 7350
 Text Notes 5400 4225 0    50   ~ 0
 Probably dont need these filters \nbased on ADAR72513 datasheet.
 Text Label 4675 6275 2    50   ~ 0
@@ -2545,7 +2541,7 @@ F_IF1_Q+
 Text Label 5150 5200 0    50   ~ 0
 IF1_Q+
 Wire Notes Line
-	5400 7350 5400 4250
+	5450 7350 5450 4250
 Wire Wire Line
 	5150 5600 5700 5600
 Wire Wire Line
@@ -3061,4 +3057,8 @@ F 3 "" H 7000 10250 50  0001 C CNN
 	1    7000 10250
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	6675 7350 5450 7350
+Wire Notes Line
+	5450 4250 6675 4250
 $EndSCHEMATC
