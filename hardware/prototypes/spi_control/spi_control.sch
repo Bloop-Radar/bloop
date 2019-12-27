@@ -2252,23 +2252,23 @@ Text Notes 7950 3800 0    100  ~ 20
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5E6578F5
-P 4100 9900
-F 0 "TP3" H 4030 10120 50  0000 L CNN
-F 1 "TestPoint" H 4158 9927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4300 9900 50  0001 C CNN
-F 3 "~" H 4300 9900 50  0001 C CNN
-	1    4100 9900
+P 3875 9900
+F 0 "TP3" H 3805 10120 50  0000 L CNN
+F 1 "TestPoint" H 3933 9927 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4075 9900 50  0001 C CNN
+F 3 "~" H 4075 9900 50  0001 C CNN
+	1    3875 9900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0142
 U 1 1 5E66375C
-P 4100 10050
-F 0 "#PWR0142" H 4100 9800 50  0001 C CNN
-F 1 "GND" H 4105 9877 50  0000 C CNN
-F 2 "" H 4100 10050 50  0001 C CNN
-F 3 "" H 4100 10050 50  0001 C CNN
-	1    4100 10050
+P 3875 10050
+F 0 "#PWR0142" H 3875 9800 50  0001 C CNN
+F 1 "GND" H 3880 9877 50  0000 C CNN
+F 2 "" H 3875 10050 50  0001 C CNN
+F 3 "" H 3875 10050 50  0001 C CNN
+	1    3875 10050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2296,7 +2296,7 @@ $EndComp
 Wire Wire Line
 	4600 10050 4600 9900
 Wire Wire Line
-	4100 9900 4100 10050
+	3875 9900 3875 10050
 Wire Wire Line
 	3600 9900 3600 10050
 Wire Notes Line
@@ -2380,8 +2380,8 @@ Wire Wire Line
 	2325 7225 2425 7225
 Wire Notes Line
 	6675 4250 6675 7350
-Text Notes 5400 4225 0    50   ~ 0
-Probably dont need these filters \nbased on ADAR72513 datasheet.
+Text Notes 5400 4225 2    50   ~ 0
+Redundant filtering if necessary\nbased on ADAR72513 datasheet.
 Text Label 4675 6275 2    50   ~ 0
 IF2_I-
 Text Label 4675 6025 2    50   ~ 0
@@ -3061,4 +3061,30 @@ Wire Notes Line
 	6675 7350 5450 7350
 Wire Notes Line
 	5450 4250 6675 4250
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5EA8B203
+P 4175 9900
+F 0 "TP8" H 4105 10120 50  0000 L CNN
+F 1 "TestPoint" H 4233 9927 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 4375 9900 50  0001 C CNN
+F 3 "~" H 4375 9900 50  0001 C CNN
+	1    4175 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA8B209
+P 4175 10050
+F 0 "#PWR?" H 4175 9800 50  0001 C CNN
+F 1 "GND" H 4180 9877 50  0000 C CNN
+F 2 "" H 4175 10050 50  0001 C CNN
+F 3 "" H 4175 10050 50  0001 C CNN
+	1    4175 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 9900 4175 10050
+Text Notes 4325 10175 1    50   ~ 0
+TP8_ProbeGND
 $EndSCHEMATC
