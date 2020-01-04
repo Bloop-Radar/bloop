@@ -1,70 +1,18 @@
-Reference, Value, Footprint, Datasheet, MPN, Category, DK_Datasheet_Link, DK_Detail_Page, Description, Digi-Key_PN, Family, Manufacturer, Status
-"U2","MCP2210-I_MQ","Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm","http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf"
-"J1","USB_B_Micro","","~"
-"D2","GREEN_LED","","~"
-"D4","GREEN_LED","","~"
-"C1","100p","","~"
-"R1","1M","","~"
-"Y1","12MHZ","Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm","https://ecsxtal.com/store/pdf/ecx-32.pdf","ECS-120-12-33-AGN-TR","","","","","","","",""
-"C23","12p","","~"
-"C21","12p","","~"
-"R8","330","","~"
-"U1","ST1L08SPU33R","Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm","https://www.st.com/content/ccc/resource/technical/document/datasheet/5f/25/d1/3f/f8/25/44/07/DM00123507.pdf/files/DM00123507.pdf/jcr:content/translations/en.DM00123507.pdf","ST1L08SPU33R","","","","","","","",""
-"C3","1u","","~"
-"C2","4.7u","","~"
-"C4","4.7u","","~"
-"D3","GREEN_LED","","~"
-"R3","330","","~"
-"R4","1k","","~"
-"C18","1u","","~"
-"C20","100n","","~"
-"R2","820","","~"
-"C27","5.6n","","~"
-"C29","390p","","~"
-"R10","1k","","~"
-"Y2","Crystal","","~"
-"C25","12p","","~"
-"C26","12p","","~"
-"R6","0","","~"
-"R7","0","","~"
-"R5","0","","~"
-"C19","470n","","~"
-"C17","470n","","~"
-"C24","100n","","~"
-"C22","10u","","~"
-"C44","1n","","~"
-"C40","100n","","~"
-"C36","10u","","~"
-"C43","100n","","~"
-"C39","100n","","~"
-"C34","10u","","~"
-"C41","100n","","~"
-"C30","10u","","~"
-"C33","100n","","~"
-"C31","10u","","~"
-"C37","100n","","~"
-"C28","10u","","~"
-"C42","100n","","~"
-"C35","10u","","~"
-"C38","100n","","~"
-"C32","10u","","~"
-"U3","ADAR7251","Package_CSP:LFCSP-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm_ThermalVias","https://www.analog.com/media/en/technical-documentation/data-sheets/ADAR7251.pdf"
-"R9","10k","","~"
-"R12","10k","","~"
-"R11","10k","","~"
-"C13","C","","~"
-"C9","C","","~"
-"C5","C","","~"
-"C14","C","","~"
-"C10","C","","~"
-"C6","C","","~"
-"C15","C","","~"
-"C11","C","","~"
-"C7","C","","~"
-"C16","C","","~"
-"C12","C","","~"
-"C8","C","","~"
-"FB1","Ferrite_Bead","","~"
-"FB2","Ferrite_Bead","","~"
-"J2","Conn_01x25_Male","","~"
-"D1","SP0503BAHTG","Package_TO_SOT_SMD:SOT-143","https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf","SP0503BAHTG","Circuit Protection","https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf","/product-detail/en/littelfuse-inc/SP0503BAHTG/F2715CT-ND/1154322","TVS DIODE 5.5V 8.5V SOT143-4","F2715CT-ND","TVS - Diodes","Littelfuse Inc.","Active"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <h1>C:\Users\KISH-ITX\Documents\GitHub\bloop\hardware\prototypes\spi_control\spi_control.sch</h1>
+    <p>1/4/2020 11:58:23 AM</p>
+    <p>Eeschema (5.1.2)-2</p>
+    <p><b>Component Count:</b>77</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>C1</td><td>1</td><td>100p</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C2, C4</td><td>2</td><td>4.7u</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C3, C18</td><td>2</td><td>1u</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16</td><td>12</td><td>C</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C17, C19</td><td>2</td><td>470n</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C20, C24, C33, C37, C38, C39, C40, C41, C42, C43</td><td>10</td><td>100n</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C21, C23</td><td>2</td><td>12p</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C22, C28, C30, C31, C32, C34, C35, C36</td><td>8</td><td>10u</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C25, C26</td><td>2</td><td>18p</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C27</td><td>1</td><td>5.6n</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C29</td><td>1</td><td>390p</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C44</td><td>1</td><td>1n</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>D1</td><td>1</td><td>SP0503BAHTG</td><td>bloop:SP0503BAHTG</td><td>https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf</td><td>TVS DIODE 5.5V 8.5V SOT143-4</td><td></td></tr><tr><td>D2</td><td>1</td><td>GREEN_LED</td><td>Device:LED</td><td>~</td><td>Light emitting diode</td><td></td></tr><tr><td>D3, D4</td><td>2</td><td>GRN</td><td>Device:LED</td><td>~</td><td>Light emitting diode</td><td></td></tr><tr><td>FB1, FB2</td><td>2</td><td>Ferrite_Bead</td><td>Device:Ferrite_Bead</td><td>~</td><td>Ferrite bead</td><td></td></tr><tr><td>H1, H2, H3, H4, H5, H6</td><td>6</td><td>MountingHole</td><td>Mechanical:MountingHole_Pad</td><td>~</td><td>Mounting Hole with connection</td><td></td></tr><tr><td>J1</td><td>1</td><td>USB_B_Micro</td><td>Connector:USB_B_Micro</td><td>~</td><td>USB Micro Type B connector</td><td></td></tr><tr><td>J39</td><td>1</td><td>Versa_1</td><td>Connector_Generic:Conn_02x20_Odd_Even</td><td>~</td><td>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>J40</td><td>1</td><td>Versa_2</td><td>Connector_Generic:Conn_02x20_Odd_Even</td><td>~</td><td>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>R1</td><td>1</td><td>1M</td><td>Device:R_US</td><td>~</td><td>Resistor, US symbol</td><td></td></tr><tr><td>R2</td><td>1</td><td>820</td><td>Device:R_US</td><td>~</td><td>Resistor, US symbol</td><td></td></tr><tr><td>R3, R8</td><td>2</td><td>330</td><td>Device:R_US</td><td>~</td><td>Resistor, US symbol</td><td></td></tr><tr><td>R4, R10</td><td>2</td><td>1k</td><td>Device:R_US</td><td>~</td><td>Resistor, US symbol</td><td></td></tr><tr><td>R5, R6, R7</td><td>3</td><td>0</td><td>Device:R_US</td><td>~</td><td>Resistor, US symbol</td><td></td></tr><tr><td>R9, R11, R12</td><td>3</td><td>10k</td><td>Device:R_US</td><td>~</td><td>Resistor, US symbol</td><td></td></tr><tr><td>U1</td><td>1</td><td>ST1L08SPU33R</td><td>bloop:ST1L08SPU33R</td><td>https://www.st.com/content/ccc/resource/technical/document/datasheet/5f/25/d1/3f/f8/25/44/07/DM00123507.pdf/files/DM00123507.pdf/jcr:content/translations/en.DM00123507.pdf</td><td>IC Reg Linear 3.3V 800mA 8DFN</td><td></td></tr><tr><td>U2</td><td>1</td><td>MCP2210-I_MQ</td><td>bloop:MCP2210-I_MQ</td><td>http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf</td><td>USB-to-SPI Protocol Converter with GPIO (Master Mode)</td><td></td></tr><tr><td>U3</td><td>1</td><td>ADAR7251</td><td>bloop:ADAR7251</td><td>https://www.analog.com/media/en/technical-documentation/data-sheets/ADAR7251.pdf</td><td>4-Channel, 16-Bit, Continuous Time Data Acquisition ADC</td><td></td></tr><tr><td>U4</td><td>1</td><td>BGT24_Module</td><td>bloop:BGT24_Module</td><td></td><td></td><td></td></tr><tr><td>Y1</td><td>1</td><td>12MHZ</td><td>Device:Crystal_GND24</td><td>https://ecsxtal.com/store/pdf/ecx-32.pdf</td><td>Four pin crystal, GND on pins 2 and 4</td><td></td></tr><tr><td>Y2</td><td>1</td><td>40MHz</td><td>Device:Crystal_GND24</td><td>https://ecsxtal.com/store/pdf/ecx-32.pdf</td><td>Four pin crystal, GND on pins 2 and 4</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
