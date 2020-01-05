@@ -2598,18 +2598,6 @@ Wire Wire Line
 	2050 2000 2050 1500
 Wire Wire Line
 	1450 1500 2050 1500
-$Comp
-L Device:Crystal_GND24 Y1
-U 1 1 5FC6E4E6
-P 7300 2500
-F 0 "Y1" H 7400 2275 50  0000 L CNN
-F 1 "12MHZ" H 6900 2650 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 7300 2500 50  0001 C CNN
-F 3 "https://ecsxtal.com/store/pdf/ecx-32.pdf" H 7300 2500 50  0001 C CNN
-F 4 "ECS-120-12-33-AGN-TR" H 7300 2500 50  0001 C CNN "MPN"
-	1    7300 2500
-	1    0    0    -1  
-$EndComp
 Connection ~ 9275 8350
 Wire Wire Line
 	9275 8350 9475 8350
@@ -2640,7 +2628,7 @@ U 1 1 5FD6D80E
 P 9275 8625
 F 0 "Y2" V 9100 8475 50  0000 L CNN
 F 1 "40MHz" V 9100 8700 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 9275 8625 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 9275 8625 50  0001 C CNN
 F 3 "https://ecsxtal.com/store/pdf/ecx-32.pdf" H 9275 8625 50  0001 C CNN
 F 4 "ECS-400-18-33-JGN-TR" H 9275 8625 50  0001 C CNN "MPN"
 	1    9275 8625
@@ -3211,4 +3199,16 @@ Wire Notes Line
 	12000 9625 9575 9625
 Wire Wire Line
 	7250 1250 7250 1300
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5FC6E4E6
+P 7300 2500
+F 0 "Y1" H 7400 2275 50  0000 L CNN
+F 1 "12MHZ" H 6900 2650 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 7300 2500 50  0001 C CNN
+F 3 "https://ecsxtal.com/store/pdf/ecx-32.pdf" H 7300 2500 50  0001 C CNN
+F 4 "ECS-120-12-33-AGN-TR" H 7300 2500 50  0001 C CNN "MPN"
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
