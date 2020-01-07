@@ -1,12 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:rf-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "BGT24 Module"
-Date "2019-10-12"
+Date "2020-01-06"
 Rev "A"
 Comp ""
 Comment1 "Prabodh J."
