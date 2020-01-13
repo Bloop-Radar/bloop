@@ -1,0 +1,48 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADAR7251
+D 4-Channel, 16-Bit, Continuous Time Data Acquisition ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADAR7251.pdf
+$ENDCMP
+#
+$CMP BGT24MTR12
+D Silicon Germanium 24 GHz Transceiver MMIC
+F https://www.infineon.com/dgdl/BGT24MTR12_v3.pdf?folderId=db3a30431f848401011fcbf2ab4c04c4&fileId=db3a304339dcf4b10139df108e75025b
+$ENDCMP
+#
+$CMP KC3225K40
+D XTAL OSC XO 40.0000MHZ CMOS SMD
+F https://global.kyocera.com/prdct/electro/product/pdf/clock_k_e.pdf
+$ENDCMP
+#
+$CMP LMX2491
+D LMX2491 6.4-GHz Low Noise RF PLL With Ramp/Chirp Generation
+F http://www.ti.com/lit/ds/symlink/lmx2491.pdf
+$ENDCMP
+#
+$CMP LPF_35GHz
+D Microstrip Low Pass Filter, Fc = 35GHz
+$ENDCMP
+#
+$CMP L_STUB
+D Transmission line stub
+K Stub, transmission line
+$ENDCMP
+#
+$CMP MCP2210-I_MQ
+D USB-to-SPI Protocol Converter with GPIO (Master Mode)
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
+$ENDCMP
+#
+$CMP SP0503BAHTG
+D TVS DIODE 5.5V 8.5V SOT143-4
+K F2715CT-ND SP05, SPA®
+F https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
+$ENDCMP
+#
+$CMP ST1L08SPU33R
+D IC Reg Linear 3.3V 800mA 8DFN
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/5f/25/d1/3f/f8/25/44/07/DM00123507.pdf/files/DM00123507.pdf/jcr:content/translations/en.DM00123507.pdf
+$ENDCMP
+#
+#End Doc Library
