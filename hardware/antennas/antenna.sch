@@ -1,4 +1,151 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Series-Fed Patch Array"
+Date "2020-02-16"
+Rev "A"
+Comp ""
+Comment1 "Prabodh J."
+Comment2 "Leo L."
+Comment3 "Austin S."
+Comment4 "Design Engineers:"
+$EndDescr
+$Comp
+L Device:Antenna AE1
+U 1 1 5E49DE1E
+P 6750 2800
+F 0 "AE1" H 6830 2789 50  0000 L CNN
+F 1 "Antenna" H 6830 2698 50  0000 L CNN
+F 2 "bloop:SFPatch_v1" H 6750 2800 50  0001 C CNN
+F 3 "~" H 6750 2800 50  0001 C CNN
+	1    6750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E4A1EDC
+P 4500 3000
+F 0 "J1" H 4500 3250 50  0000 C CNN
+F 1 "SMP" H 4500 3150 50  0000 C CNN
+F 2 "bloop:85305-0232" H 4500 3000 50  0001 C CNN
+F 3 " ~" H 4500 3000 50  0001 C CNN
+	1    4500 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bloop:GNDRF #PWR01
+U 1 1 5E4A3C28
+P 4500 3200
+F 0 "#PWR01" H 4500 2950 50  0001 C CNN
+F 1 "GNDRF" H 4505 3027 50  0000 C CNN
+F 2 "" H 4500 3200 50  0001 C CNN
+F 3 "" H 4500 3200 50  0001 C CNN
+	1    4500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3000 4700 3000
+Wire Notes Line
+	4950 2950 4950 3050
+Wire Notes Line
+	4950 3050 6450 3050
+Wire Notes Line
+	6450 3050 6450 2950
+Wire Notes Line
+	6450 2950 4950 2950
+Text Notes 5650 2900 0    50   ~ 0
+Zo
+$Comp
+L Device:Antenna AE2
+U 1 1 5E4B8B31
+P 6750 3800
+F 0 "AE2" H 6830 3789 50  0000 L CNN
+F 1 "Antenna" H 6830 3698 50  0000 L CNN
+F 2 "bloop:SFPatch_v1" H 6750 3800 50  0001 C CNN
+F 3 "~" H 6750 3800 50  0001 C CNN
+	1    6750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E4B8B37
+P 4500 4000
+F 0 "J2" H 4500 4250 50  0000 C CNN
+F 1 "SMP" H 4500 4150 50  0000 C CNN
+F 2 "bloop:85305-0232" H 4500 4000 50  0001 C CNN
+F 3 " ~" H 4500 4000 50  0001 C CNN
+	1    4500 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bloop:GNDRF #PWR02
+U 1 1 5E4B8B3D
+P 4500 4200
+F 0 "#PWR02" H 4500 3950 50  0001 C CNN
+F 1 "GNDRF" H 4505 4027 50  0000 C CNN
+F 2 "" H 4500 4200 50  0001 C CNN
+F 3 "" H 4500 4200 50  0001 C CNN
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4000 4700 4000
+Wire Notes Line
+	4950 3950 4950 4050
+Wire Notes Line
+	4950 4050 6450 4050
+Wire Notes Line
+	6450 4050 6450 3950
+Wire Notes Line
+	6450 3950 4950 3950
+Text Notes 5650 3900 0    50   ~ 0
+Zo
+$Comp
+L Device:Antenna AE3
+U 1 1 5E4BB647
+P 6750 4800
+F 0 "AE3" H 6830 4789 50  0000 L CNN
+F 1 "Antenna" H 6830 4698 50  0000 L CNN
+F 2 "bloop:SFPatch_v1" H 6750 4800 50  0001 C CNN
+F 3 "~" H 6750 4800 50  0001 C CNN
+	1    6750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5E4BB64D
+P 4500 5000
+F 0 "J3" H 4500 5250 50  0000 C CNN
+F 1 "SMP" H 4500 5150 50  0000 C CNN
+F 2 "bloop:85305-0232" H 4500 5000 50  0001 C CNN
+F 3 " ~" H 4500 5000 50  0001 C CNN
+	1    4500 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bloop:GNDRF #PWR03
+U 1 1 5E4BB653
+P 4500 5200
+F 0 "#PWR03" H 4500 4950 50  0001 C CNN
+F 1 "GNDRF" H 4505 5027 50  0000 C CNN
+F 2 "" H 4500 5200 50  0001 C CNN
+F 3 "" H 4500 5200 50  0001 C CNN
+	1    4500 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5000 4700 5000
+Wire Notes Line
+	4950 4950 4950 5050
+Wire Notes Line
+	4950 5050 6450 5050
+Wire Notes Line
+	6450 5050 6450 4950
+Wire Notes Line
+	6450 4950 4950 4950
+Text Notes 5650 4900 0    50   ~ 0
+Zo
 $EndSCHEMATC
